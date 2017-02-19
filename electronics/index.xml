@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Electronics on On My Mind</title>
+    <link>https://ao152867.github.io/on-my-mind/electronics/index.xml</link>
+    <description>Recent content in Electronics on On My Mind</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 27 Jan 2017 11:03:09 +0200</lastBuildDate>
+    <atom:link href="https://ao152867.github.io/on-my-mind/electronics/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Electronics</title>
+      <link>https://ao152867.github.io/on-my-mind/electronics/</link>
+      <pubDate>Fri, 27 Jan 2017 11:03:09 +0200</pubDate>
+      
+      <guid>https://ao152867.github.io/on-my-mind/electronics/</guid>
+      <description>
+
+&lt;h3 id=&#34;chapter-x&#34;&gt;Chapter X&lt;/h3&gt;
+
+&lt;h1 id=&#34;some-chapter-title&#34;&gt;Some Chapter title&lt;/h1&gt;
+
+&lt;p&gt;Lorem ipsum&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>School</title>
+      <link>https://ao152867.github.io/on-my-mind/electronics/general/</link>
+      <pubDate>Fri, 27 Jan 2017 11:06:26 +0200</pubDate>
+      
+      <guid>https://ao152867.github.io/on-my-mind/electronics/general/</guid>
+      <description>
+
+&lt;h2 id=&#34;useful-links&#34;&gt;Useful links&lt;/h2&gt;
+
+&lt;p&gt;Thesis on optical cables (FI):&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.theseus.fi/bitstream/handle/10024/96612/Juntunen_Ville.pdf.pdf?sequence=1&#34;&gt;https://www.theseus.fi/bitstream/handle/10024/96612/Juntunen_Ville.pdf.pdf?sequence=1&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Cable Standards (EN):&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://netgroup.polito.it/teaching/prlc/Cabling%20-%20Standards.pdf&#34;&gt;http://netgroup.polito.it/teaching/prlc/Cabling%20-%20Standards.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;JAMK library:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.jamk.fi/en/Services/library/Guides/ICT/&#34;&gt;https://www.jamk.fi/en/Services/library/Guides/ICT/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

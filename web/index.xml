@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Webs on On My Mind</title>
+    <link>https://ao152867.github.io/on-my-mind/web/index.xml</link>
+    <description>Recent content in Webs on On My Mind</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 18 Nov 2016 11:14:57 +0200</lastBuildDate>
+    <atom:link href="https://ao152867.github.io/on-my-mind/web/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>web</title>
+      <link>https://ao152867.github.io/on-my-mind/web/</link>
+      <pubDate>Fri, 18 Nov 2016 11:14:57 +0200</pubDate>
+      
+      <guid>https://ao152867.github.io/on-my-mind/web/</guid>
+      <description>
+
+&lt;h3 id=&#34;chapter-x&#34;&gt;Chapter X&lt;/h3&gt;
+
+&lt;h1 id=&#34;some-chapter-title&#34;&gt;Some Chapter title&lt;/h1&gt;
+
+&lt;p&gt;Lorem ipsum&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>https://ao152867.github.io/on-my-mind/web/hugo/</link>
+      <pubDate>Fri, 18 Nov 2016 12:23:15 +0200</pubDate>
+      
+      <guid>https://ao152867.github.io/on-my-mind/web/hugo/</guid>
+      <description>&lt;p&gt;Learn theme guide:&lt;br /&gt;
+&lt;a href=&#34;https://matcornic.github.io/hugo-learn-doc/basics/&#34;&gt;https://matcornic.github.io/hugo-learn-doc/basics/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Hugo set port:&lt;br /&gt;
+&lt;a href=&#34;https://discuss.gohugo.io/t/hugo-port/212&#34;&gt;https://discuss.gohugo.io/t/hugo-port/212&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;hugo server -p 1234
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Writing theme specific code on here and having it show up:&lt;br /&gt;
+&lt;a href=&#34;https://raw.githubusercontent.com/matcornic/hugo-learn-doc/master/content/cont/shortcodes/index.md&#34;&gt;https://raw.githubusercontent.com/matcornic/hugo-learn-doc/master/content/cont/shortcodes/index.md&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Button:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;{{% button %}}{{% /button %}}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>html</title>
+      <link>https://ao152867.github.io/on-my-mind/web/html/</link>
+      <pubDate>Fri, 18 Nov 2016 11:17:58 +0200</pubDate>
+      
+      <guid>https://ao152867.github.io/on-my-mind/web/html/</guid>
+      <description>&lt;p&gt;Nice HTML5 skeleton:&lt;br /&gt;
+&lt;a href=&#34;https://www.taniarascia.com/basic-html5-file/&#34;&gt;https://www.taniarascia.com/basic-html5-file/&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;html lang=&amp;quot;en&amp;quot;&amp;gt;
+
+&amp;lt;head&amp;gt;
+  &amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt;
+  &amp;lt;meta http-equiv=&amp;quot;x-ua-compatible&amp;quot; content=&amp;quot;ie=edge&amp;quot;&amp;gt;
+  &amp;lt;meta name=&amp;quot;viewport&amp;quot; content=&amp;quot;width=device-width, initial-scale=1&amp;quot;&amp;gt;
+
+  &amp;lt;title&amp;gt;&amp;lt;/title&amp;gt;
+
+  &amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;css/main.css&amp;quot;&amp;gt;
+  &amp;lt;link rel=&amp;quot;icon&amp;quot; href=&amp;quot;images/favicon.png&amp;quot;&amp;gt;
+&amp;lt;/head&amp;gt;
+
+&amp;lt;body&amp;gt;
+
+  &amp;lt;script src=&amp;quot;https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+  &amp;lt;script src=&amp;quot;js/script.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;/body&amp;gt;
+
+&amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>js</title>
+      <link>https://ao152867.github.io/on-my-mind/web/js/</link>
+      <pubDate>Fri, 18 Nov 2016 11:15:09 +0200</pubDate>
+      
+      <guid>https://ao152867.github.io/on-my-mind/web/js/</guid>
+      <description>&lt;p&gt;Using the date function.&lt;br /&gt;
+&lt;a href=&#34;http://www.w3schools.com/jsref/jsref_obj_date.asp&#34;&gt;http://www.w3schools.com/jsref/jsref_obj_date.asp&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;new Date().toTimeString().toString()&lt;/code&gt; in Node-RED gives me a nice easily readable timestamp.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

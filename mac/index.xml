@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Macs on On My Mind</title>
+    <link>https://ao152867.github.io/on-my-mind/mac/index.xml</link>
+    <description>Recent content in Macs on On My Mind</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 18 Nov 2016 11:05:43 +0200</lastBuildDate>
+    <atom:link href="https://ao152867.github.io/on-my-mind/mac/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>mac</title>
+      <link>https://ao152867.github.io/on-my-mind/mac/</link>
+      <pubDate>Fri, 18 Nov 2016 11:05:43 +0200</pubDate>
+      
+      <guid>https://ao152867.github.io/on-my-mind/mac/</guid>
+      <description>
+
+&lt;h3 id=&#34;chapter-x&#34;&gt;Chapter X&lt;/h3&gt;
+
+&lt;h1 id=&#34;some-chapter-title&#34;&gt;Some Chapter title&lt;/h1&gt;
+
+&lt;p&gt;Lorem ipsum&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>general</title>
+      <link>https://ao152867.github.io/on-my-mind/mac/general/</link>
+      <pubDate>Fri, 18 Nov 2016 11:22:42 +0200</pubDate>
+      
+      <guid>https://ao152867.github.io/on-my-mind/mac/general/</guid>
+      <description>
+
+&lt;h2 id=&#34;macos-setup-guide&#34;&gt;macOS Setup Guide&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://sourabhbajaj.com/mac-setup/index.html&#34;&gt;http://sourabhbajaj.com/mac-setup/index.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;nfs-mounts&#34;&gt;NFS mounts&lt;/h3&gt;
+
+&lt;p&gt;How to get it to work:&lt;br /&gt;
+&lt;a href=&#34;http://blog.fosketts.net/2015/03/20/using-nfs-to-share-data-between-unix-and-mac-os-x/&#34;&gt;http://blog.fosketts.net/2015/03/20/using-nfs-to-share-data-between-unix-and-mac-os-x/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Something like this in the &lt;code&gt;/etc/exports&lt;/code&gt; file:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ip-addr     addrs-to-export-to(rw,async,insecure,all_squash,no_subtree_check,anonuid=1001,anongid=1001)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;div class=&#34;notices note&#34; &gt;&lt;p&gt;Make sure the id&amp;rsquo;s match those you want the Mac to assume.&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;Now you can mount like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;sudo mount -t nfs 192.168.3.1:/mp3 /private/nfs
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I haven&amp;rsquo;t read the entire thing yet so might be I missed something but I wasn&amp;rsquo;t able to &lt;code&gt;transfer&lt;/code&gt; files to the server. In order to get that to work I had to add the &lt;code&gt;-o nolocks&lt;/code&gt; option when mounting. &lt;a href=&#34;https://discussions.apple.com/thread/1394583?start=0&amp;amp;tstart=0&#34;&gt;https://discussions.apple.com/thread/1394583?start=0&amp;amp;tstart=0&lt;/a&gt;&lt;br /&gt;
+Detailed post on this:&lt;br /&gt;
+&lt;a href=&#34;http://www.mauserrifle.nl/linux/osx-and-linux-nfs-shares/&#34;&gt;http://www.mauserrifle.nl/linux/osx-and-linux-nfs-shares/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;If the insecure option is not an option use this:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.cyberciti.biz/faq/apple-mac-osx-nfs-mount-command-tutorial/&#34;&gt;https://www.cyberciti.biz/faq/apple-mac-osx-nfs-mount-command-tutorial/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sudo mount -t nfs -o resvport,rw 192.168.3.1:/mp3 /private/nfs&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;With or without the rw it gave me the permission denied warning unless I was root. So only viable if don&amp;rsquo;t need to write access.&lt;/p&gt;
+
+&lt;p&gt;Other stuff pertaining to this:&lt;/p&gt;
+
+&lt;p&gt;This person seems to have a clue on what is going on at a deep level of understanding should read some day.&lt;br /&gt;
+&lt;a href=&#34;http://www.linuxquestions.org/questions/linux-networking-3/permission-denied-on-nfs-mount-4175500991/&#34;&gt;http://www.linuxquestions.org/questions/linux-networking-3/permission-denied-on-nfs-mount-4175500991/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;Correct&amp;rdquo; fix have uses with same uid/gid on both mac and unix sounds like too much work:&lt;br /&gt;
+&lt;a href=&#34;http://stackoverflow.com/questions/23037893/permission-denied-with-mounting-nfs-with-webmin-mac-osx-ubuntu-setup&#34;&gt;http://stackoverflow.com/questions/23037893/permission-denied-with-mounting-nfs-with-webmin-mac-osx-ubuntu-setup&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Create a new group and assign it a specific GID:&lt;br /&gt;
+&lt;strong&gt;System Preferences -&amp;gt; Users &amp;amp; Groups&lt;/strong&gt;, unlock to make changes hit the &lt;strong&gt;+&lt;/strong&gt; to add a new user account on the &lt;strong&gt;New Account&lt;/strong&gt; dropdown select group. Give it a name then &lt;strong&gt;Create Group&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Now the group should appear under &lt;strong&gt;Groups&lt;/strong&gt; on the left-hand side right-click select &lt;strong&gt;Advanced Options&amp;hellip;&lt;/strong&gt; then select the new GID.&lt;/p&gt;
+
+&lt;p&gt;Might work for new users haven&amp;rsquo;t tested it.&lt;/p&gt;
+
+&lt;p&gt;Some command-line options for this.&lt;br /&gt;
+Group:&lt;br /&gt;
+&lt;a href=&#34;http://superuser.com/questions/74342/create-specific-gid-for-a-group-and-add-a-user-to-it-on-mac-os-x-10-5&#34;&gt;http://superuser.com/questions/74342/create-specific-gid-for-a-group-and-add-a-user-to-it-on-mac-os-x-10-5&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;User:&lt;br /&gt;
+&lt;a href=&#34;http://apple.stackexchange.com/questions/226073/how-do-i-create-user-accounts-from-the-terminal-in-mac-os-x-10-11&#34;&gt;http://apple.stackexchange.com/questions/226073/how-do-i-create-user-accounts-from-the-terminal-in-mac-os-x-10-11&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;iterm&#34;&gt;iTerm&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;cmd + option + v&lt;/code&gt; Advanced paste allows you to edit before you paste.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;cmd + option + b&lt;/code&gt; Allows you to go backwards in time and see what happened in the terminal sort of like that one thing that records stuff but can&amp;rsquo;t remember its name&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;Prefs &amp;gt; Keys &amp;gt; Show/Hide iTerm2 with a system-wide hotkey&lt;/p&gt;
+
+&lt;p&gt;Prefs &amp;gt; Profiles &amp;gt; Colors - Highlights the line you are on&lt;br /&gt;
+&lt;code&gt;cmd + option + ;&lt;/code&gt; - to activate it&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;cmd + option + a&lt;/code&gt; - Get informed when a long-running command completes.&lt;/p&gt;
+
+&lt;h1 id=&#34;need-to-read-what-this-does-and-how-to-do-it&#34;&gt;Need to read what this does and how to do it&amp;hellip;&lt;/h1&gt;
+
+&lt;p&gt;With Shell Integration installed, you can select the output of the last command with shift cmd a&lt;br /&gt;
+&lt;a href=&#34;https://iterm2.com/documentation-shell-integration.html&#34;&gt;https://iterm2.com/documentation-shell-integration.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;cmd + /&lt;/code&gt; shows where the cursor is.&lt;/p&gt;
+
+&lt;h3 id=&#34;settings&#34;&gt;Settings&lt;/h3&gt;
+
+&lt;p&gt;If a program is in another language then go to System Preferences -&amp;gt; Language &amp;amp; Region and under &lt;code&gt;Preferred languages&lt;/code&gt; delete all languages other than the one you want. Yes, even if it isn&amp;rsquo;t the first one it can still mess things up. GIMP, for instance, seems want to be in any language other than English.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://ao152867.github.io/on-my-mind/images/preferred_languages-mac.png&#34; alt=&#34;Preferred languages&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Something else that I myself haven&amp;rsquo;t tested out:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.ekenberg.se/blog/change-gimp-interface-language-on-mac/&#34;&gt;http://www.ekenberg.se/blog/change-gimp-interface-language-on-mac/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I &lt;em&gt;think&lt;/em&gt; the steps would be:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;# Back up the file before working on it
+cp /Applications/GIMP.app/Contents/MacOS/GIMP ~/gimp.bak
+
+vim /Applications/GIMP.app/Contents/MacOS/GIMP
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The file should be a shell script not a binary file (run the &lt;code&gt;file&lt;/code&gt; command on the file to make sure, if you want). Scroll all the way to the bottom of the file &lt;code&gt;Shift+g&lt;/code&gt;, then &lt;code&gt;Shift+o&lt;/code&gt; (this adds a line before the last line, which should begin with &lt;code&gt;exec&lt;/code&gt;) and add this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;export LANG=en_US.UTF-8
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If another language is desired run &lt;code&gt;locale -a&lt;/code&gt; to see all the valid values. (e.g. &lt;code&gt;sv_SE.UTF-8&lt;/code&gt;)&lt;/p&gt;
+
+&lt;h3 id=&#34;scripts&#34;&gt;Scripts&lt;/h3&gt;
+
+&lt;h5 id=&#34;shutdown-silently&#34;&gt;Shutdown silently&lt;/h5&gt;
+
+&lt;p&gt;Shutdown the mac without having to fear that next time you turn it on you&amp;rsquo;ll be living in the streets because your neighbours complained to the landlord that some arse in apartment 1I just woke everyone up in a six kilometer radius.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://osxdaily.com/2016/08/19/run-applescript-command-line-macos-osascript/&#34;&gt;Using osascript&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://osxdaily.com/2007/04/28/change-the-system-volume-from-the-command-line/&#34;&gt;Changing the volume&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://apple.stackexchange.com/questions/103571/using-the-terminal-command-to-shutdown-restart-and-sleep-my-mac&#34;&gt;Shutting down&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Additional: &lt;a href=&#34;https://www.macissues.com/2014/10/28/all-methods-for-restarting-and-shutting-down-your-mac/&#34;&gt;all methods for shutting down&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;other&#34;&gt;Other&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://hathaway.cc/post/69201163472/how-to-edit-your-path-environment-variables-on-mac&#34;&gt;Editing PATH&lt;/a&gt; (Might actually be in setup guide)&lt;/p&gt;
+
+&lt;h3 id=&#34;annoyances&#34;&gt;Annoyances&lt;/h3&gt;
+
+&lt;h4 id=&#34;disable-photos&#34;&gt;Disable Photos&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://discussions.apple.com/thread/7004288?tstart=0&#34;&gt;https://discussions.apple.com/thread/7004288?tstart=0&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;terminal&#34;&gt;terminal&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://apple.stackexchange.com/questions/113151/does-os-xs-terminal-app-support-mouse&#34;&gt;http://apple.stackexchange.com/questions/113151/does-os-xs-terminal-app-support-mouse&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://apple.stackexchange.com/questions/9016/how-to-jump-to-a-location-using-mouse-on-iterm-terminal&#34;&gt;http://apple.stackexchange.com/questions/9016/how-to-jump-to-a-location-using-mouse-on-iterm-terminal&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;disk-utility&#34;&gt;Disk Utility&lt;/h4&gt;
+
+&lt;p&gt;Formatting/partitioning drives:&lt;br /&gt;
+&lt;a href=&#34;https://discussions.apple.com/thread/5604025?tstart=0&#34;&gt;https://discussions.apple.com/thread/5604025?tstart=0&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;https://discussions.apple.com/thread/7338380?start=0&amp;amp;tstart=0&#34;&gt;https://discussions.apple.com/thread/7338380?start=0&amp;amp;tstart=0&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;https://forums.macrumors.com/threads/el-capitan-disk-utility-partition-option-greyed-out.1932056/&#34;&gt;https://forums.macrumors.com/threads/el-capitan-disk-utility-partition-option-greyed-out.1932056/&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;https://support.apple.com/kb/PH22240?locale=en_US&#34;&gt;https://support.apple.com/kb/PH22240?locale=en_US&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;onenote&#34;&gt;OneNote&lt;/h4&gt;
+
+&lt;p&gt;Seem to &lt;a href=&#34;http://apple.stackexchange.com/questions/150466/cant-create-new-notebook-in-microsoft-onenote-for-mac&#34;&gt;need OneDrive to use OneNote&lt;/a&gt; ?&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hardware</title>
+      <link>https://ao152867.github.io/on-my-mind/mac/hardware/</link>
+      <pubDate>Tue, 31 Jan 2017 10:51:36 +0200</pubDate>
+      
+      <guid>https://ao152867.github.io/on-my-mind/mac/hardware/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;https://support.apple.com/kb/PH25696?locale=en_US&#34;&gt;Apple Diagnostics/Apple Hardware Test&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;imac 2308&lt;/p&gt;
+
+&lt;h3 id=&#34;ram-upgrade&#34;&gt;RAM upgrade&lt;/h3&gt;
+
+&lt;p&gt;Used this &lt;a href=&#34;https://www.youtube.com/watch?v=AzZ9nRJz7AQ&#34;&gt;video&lt;/a&gt; and &lt;a href=&#34;https://support.apple.com/en-us/HT201191&#34;&gt;Apple&amp;rsquo;s written guide&lt;/a&gt; to upgrade the RAM on a 21.5&amp;rdquo; iMac.&lt;/p&gt;
+
+&lt;h3 id=&#34;ssd&#34;&gt;SSD&lt;/h3&gt;
+
+&lt;p&gt;Replacing the HDD with an SSD.&lt;/p&gt;
+
+&lt;p&gt;iFixit guide (need to check model for differences): &lt;a href=&#34;https://www.ifixit.com/Guide/iMac+Intel+21.5-Inch+EMC+2428+Hard+Drive+Replacement/5954&#34;&gt;https://www.ifixit.com/Guide/iMac+Intel+21.5-Inch+EMC+2428+Hard+Drive+Replacement/5954&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Forum post suggesting swap the Optical drive rather than the HDD.&lt;br /&gt;
+&lt;a href=&#34;https://www.ifixit.com/Answers/View/125635/Is+it+possible+to+update+my+iMac+from+HDD+to+SSD&#34;&gt;https://www.ifixit.com/Answers/View/125635/Is+it+possible+to+update+my+iMac+from+HDD+to+SSD&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&#34;notices warning&#34; &gt;&lt;p&gt;Does this mean one would NOT need the temp board or manual control of fans (which I&amp;rsquo;m already using anyway) ?&lt;br /&gt;
+Need to check speeds of the each ports bus to see if either one is slower than the other.&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;21 inch iMac optical drive to ssd guide: &lt;a href=&#34;https://www.ifixit.com/Guide/iMac+Intel+21.5-Inch+EMC+2389+SSD+Dual+Drive+Installation+Replacement/9068&#34;&gt;https://www.ifixit.com/Guide/iMac+Intel+21.5-Inch+EMC+2389+SSD+Dual+Drive+Installation+Replacement/9068&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;5.25 to 2 SSDs and 1 3.5 drive ? &lt;a href=&#34;https://www.newegg.com/Product/Product.aspx?Item=N82E16817994163&#34;&gt;https://www.newegg.com/Product/Product.aspx?Item=N82E16817994163&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;HDD to SSD: &lt;a href=&#34;https://9to5mac.com/2015/02/13/how-to-swap-imac-hard-drive-for-ssd/comment-page-1/&#34;&gt;https://9to5mac.com/2015/02/13/how-to-swap-imac-hard-drive-for-ssd/comment-page-1/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;More videos:&lt;br /&gt;
+&lt;a href=&#34;https://www.youtube.com/watch?v=F2vRK8gHLXE&#34;&gt;https://www.youtube.com/watch?v=F2vRK8gHLXE&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;https://www.youtube.com/watch?v=RmLLzkg3vI0&#34;&gt;https://www.youtube.com/watch?v=RmLLzkg3vI0&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linuxes on On My Mind</title>
+    <link>https://ao152867.github.io/on-my-mind/linux/index.xml</link>
+    <description>Recent content in Linuxes on On My Mind</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 27 Jan 2017 10:34:38 +0200</lastBuildDate>
+    <atom:link href="https://ao152867.github.io/on-my-mind/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>linux</title>
+      <link>https://ao152867.github.io/on-my-mind/linux/</link>
+      <pubDate>Fri, 27 Jan 2017 10:34:38 +0200</pubDate>
+      
+      <guid>https://ao152867.github.io/on-my-mind/linux/</guid>
+      <description>
+
+&lt;h3 id=&#34;chapter-x&#34;&gt;Chapter X&lt;/h3&gt;
+
+&lt;h1 id=&#34;some-chapter-title&#34;&gt;Some Chapter title&lt;/h1&gt;
+
+&lt;p&gt;Lorem ipsum&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Post installation</title>
+      <link>https://ao152867.github.io/on-my-mind/linux/post-install/</link>
+      <pubDate>Thu, 16 Feb 2017 22:33:12 +0200</pubDate>
+      
+      <guid>https://ao152867.github.io/on-my-mind/linux/post-install/</guid>
+      <description>
+
+&lt;h2 id=&#34;sysrq&#34;&gt;SysRq&lt;/h2&gt;
+
+&lt;p&gt;Make sure to have this enabled in case there is some freeze in the system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.maketecheasier.com/the-usage-of-sysrq-key-in-linux/&#34;&gt;https://www.maketecheasier.com/the-usage-of-sysrq-key-in-linux/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Fedora explanation: &lt;a href=&#34;https://fedoraproject.org/wiki/QA/Sysrq&#34;&gt;https://fedoraproject.org/wiki/QA/Sysrq&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;linux.fi: &lt;a href=&#34;https://www.linux.fi/wiki/SysRq&#34;&gt;https://www.linux.fi/wiki/SysRq&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;wikipedia: &lt;a href=&#34;https://en.wikipedia.org/wiki/Magic_SysRq_key&#34;&gt;https://en.wikipedia.org/wiki/Magic_SysRq_key&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;arch: &lt;a href=&#34;https://wiki.archlinux.org/index.php/Keyboard_shortcuts#Terminal&#34;&gt;https://wiki.archlinux.org/index.php/Keyboard_shortcuts#Terminal&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;update-the-system&#34;&gt;Update the system&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;# Debian based (Ubuntu, Mint, etc.)
+sudo apt update &amp;amp;&amp;amp; sudo apt upgrade
+
+# Red Hat based (e.g. Fedora, CentOS, etc.)
+sudo dnf update
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;install-additional-programs&#34;&gt;Install additional programs&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Program&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;htop&lt;/td&gt;
+&lt;td&gt;Fancier version of &lt;code&gt;top&lt;/code&gt;, Interactive process viewer&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;vim-*&lt;/td&gt;
+&lt;td&gt;Text editor with improved enhancements/scripts&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;git&lt;/td&gt;
+&lt;td&gt;the stupid content tracker &lt;a href=&#34;#1&#34;&gt;1&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;ansible&lt;/td&gt;
+&lt;td&gt;IT Automation&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;gimp&lt;/td&gt;
+&lt;td&gt;image manipulation and paint program&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;tmux&lt;/td&gt;
+&lt;td&gt;terminal multiplexer&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;atom&lt;/td&gt;
+&lt;td&gt;hackable text editor (graphical)&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;thonny&lt;/td&gt;
+&lt;td&gt;Beginner&amp;rsquo;s python IDE (without the distractions and with great debugger)&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;zsh&lt;/td&gt;
+&lt;td&gt;the Z shell&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&#34;available-in-the-repositories&#34;&gt;Available in the repositories&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;# Debian based (Ubuntu, Mint, etc.)
+sudo apt install htop vim-scripts git ansible gimp tmux zsh
+
+# Red Hat based (e.g. Fedora, CentOS, etc.)
+sudo dnf install htop vim-enhanced git-all ansible gimp powerline tmux zsh
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;atom&#34;&gt;atom&lt;/h3&gt;
+
+&lt;p&gt;Seeing as atom isn&amp;rsquo;t in most repos manual installation is required.&lt;/p&gt;
+
+&lt;p&gt;Go to &lt;a href=&#34;https://atom.io/&#34;&gt;https://atom.io/&lt;/a&gt; and select the appropriate filetype.&lt;/p&gt;
+
+&lt;p&gt;To &lt;a href=&#34;http://unix.stackexchange.com/questions/249167/install-locally-using-dnf-in-fedora-without-using-internet-connection&#34;&gt;install the RPM&lt;/a&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;# this will also pull down dependencies
+sudo dnf install /path/to/atom-install-file.rpm
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;div class=&#34;notices tip&#34; &gt;&lt;p&gt;&lt;code&gt;Ctrl+Shift+p&lt;/code&gt; opens the command palette. Can type &lt;code&gt;Welcome&lt;/code&gt; to rerun the welcome guide.&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;h3 id=&#34;thonny&#34;&gt;thonny&lt;/h3&gt;
+
+&lt;h1 id=&#34;don-t-do-this-just-use-the-script&#34;&gt;Don&amp;rsquo;t do this just use the script&lt;/h1&gt;
+
+&lt;p&gt;You can check if the package is available by typing:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;pip3 search thonny
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;To install it:&lt;/p&gt;
+
+&lt;h1 id=&#34;check-on-an-ubuntu-machine-and-see-where-it-actually-installs-thonny-to&#34;&gt;Check on an Ubuntu machine and see where it actually installs thonny to&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;# Ubuntu - Installs to .local/bin
+pip3 install thonny
+
+# Fedora - get error if not using sudo
+sudo pip3 install thonny
+
+#This will require installing tkinter which starts getting messy easier to use the bash script located on the site to do the install
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;don-t-do-this-just-use-the-script-1&#34;&gt;/Don&amp;rsquo;t do this just use the script&lt;/h1&gt;
+
+&lt;h4 id=&#34;adding-to-path&#34;&gt;Adding to PATH&lt;/h4&gt;
+
+&lt;p&gt;You should be able type the command in the terminal (Probably best to always start it from a terminal rather than creating a launcher; that way if there is an infinite loop or something it is real easy to terminate the program)&lt;/p&gt;
+
+&lt;p&gt;If it isn&amp;rsquo;t a recognized command then check if its path is included in your &lt;code&gt;$PATH&lt;/code&gt; by typing in:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;echo $PATH
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If not then add it by going to your profile file (~/.profile, ~/.bash_profile) and look for the line that starts with &lt;code&gt;PATH=&lt;/code&gt; then appending to the line &lt;code&gt;:/path/to/thonny&#39;s/directory&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;If you don&amp;rsquo;t have one you could add one by doing something like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;PATH=$PATH:$HOME/.local/bin:$HOME/bin
+
+export PATH
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;notes&#34;&gt;Notes&lt;/h2&gt;
+
+&lt;h5 id=&#34;1&#34;&gt;1&lt;/h5&gt;
+
+&lt;p&gt;At the time of writing git-all is broken for Debian based systems so using git instead.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>general</title>
+      <link>https://ao152867.github.io/on-my-mind/linux/general/</link>
+      <pubDate>Sat, 04 Feb 2017 18:10:20 +0200</pubDate>
+      
+      <guid>https://ao152867.github.io/on-my-mind/linux/general/</guid>
+      <description>
+
+&lt;p&gt;Best place to learn how to install a system step by step: &lt;a href=&#34;https://www.server-world.info/en/&#34;&gt;https://www.server-world.info/en/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Debian: &lt;a href=&#34;https://wiki.debian.org/SourcesList&#34;&gt;SourceList&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://stackoverflow.com/questions/5635651/linux-find-regex&#34;&gt;find regex&lt;/a&gt; (Not sure if this is needed or if I just did the search with an error last time.)&lt;/p&gt;
+
+&lt;p&gt;crontab run once network is up: &lt;a href=&#34;http://askubuntu.com/questions/3299/how-to-run-cron-job-when-network-is-up&#34;&gt;http://askubuntu.com/questions/3299/how-to-run-cron-job-when-network-is-up&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;troubleshooting&#34;&gt;Troubleshooting&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://wiki.archlinux.org/index.php/Reset_root_password&#34;&gt;Reset root password&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://wiki.archlinux.org/index.php/Change_root&#34;&gt;Change root&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://wiki.archlinux.org/index.php/Pacman/Package_signing&#34;&gt;pacman/Package signing&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.archlinux.org/master-keys/&#34;&gt;Arch keyrings&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://bbs.archlinux.org/viewtopic.php?id=221435&#34;&gt;Arch keyring update&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Installation</title>
+      <link>https://ao152867.github.io/on-my-mind/linux/fresh-install/</link>
+      <pubDate>Fri, 27 Jan 2017 10:39:39 +0200</pubDate>
+      
+      <guid>https://ao152867.github.io/on-my-mind/linux/fresh-install/</guid>
+      <description>
+
+&lt;h2 id=&#34;archlinux&#34;&gt;archlinux&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://wiki.archlinux.org/index.php/installation_guide&#34;&gt;Installation guide&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://wiki.archlinux.org/index.php/Install_from_SSH&#34;&gt;Install from SSH&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>XFCE</title>
+      <link>https://ao152867.github.io/on-my-mind/linux/xfce/</link>
+      <pubDate>Fri, 17 Feb 2017 08:09:40 +0200</pubDate>
+      
+      <guid>https://ao152867.github.io/on-my-mind/linux/xfce/</guid>
+      <description>
+
+&lt;h2 id=&#34;backup-panel-configuration&#34;&gt;Backup panel configuration&lt;/h2&gt;
+
+&lt;p&gt;Open up the &lt;code&gt;Xfce Panel Switch&lt;/code&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/panel_config_settings.png&#34; alt=&#34;XFCE Panel Switch location&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Once you&amp;rsquo;ve customized your panel to your liking select &lt;code&gt;Save configuration&lt;/code&gt; it is the button to the right of the gears near the bottom left. Give it a name and then select it and click &lt;code&gt;Export&lt;/code&gt; (fourth icon).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/panel_backup.png&#34; alt=&#34;XFCE Panel Switch&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;To import it, click the &lt;code&gt;Import&lt;/code&gt; button (fifth icon) then &lt;code&gt;Apply Configuration&lt;/code&gt; (first icon; the gears).&lt;/p&gt;
+
+&lt;h2 id=&#34;keyboard-settings&#34;&gt;Keyboard settings&lt;/h2&gt;
+
+&lt;h5 id=&#34;application-shortcuts&#34;&gt;Application Shortcuts&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/keyboard_settings.png&#34; alt=&#34;Keyboard settings location&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Once at the keyboard settings, click on &lt;code&gt;Application Shortcuts&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Change these commands&amp;rsquo; shortcuts to:&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;command&lt;/th&gt;
+&lt;th&gt;shortcut&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;xfce4-appfinder&lt;/td&gt;
+&lt;td&gt;Ctrl+Space or Super+Space&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;xfce4-terminal&lt;/td&gt;
+&lt;td&gt;Super+t&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Thunar&lt;/td&gt;
+&lt;td&gt;Super+f&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;exo-open &amp;ndash;launch WebBrowser&lt;/td&gt;
+&lt;td&gt;Super+w&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Keyboard shortcuts to add:&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;command&lt;/th&gt;
+&lt;th&gt;shortcut&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;xflock4&lt;/td&gt;
+&lt;td&gt;Super+L&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;xfce4-screenshooter -f -m -d 5&lt;/td&gt;
+&lt;td&gt;Super+5&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;atom&lt;/td&gt;
+&lt;td&gt;Super+a&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;VirtualBox&lt;/td&gt;
+&lt;td&gt;Super+v&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;xfce4-screenshooter -w&lt;/td&gt;
+&lt;td&gt;Alt+Print (is this already there ?)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;div class=&#34;notices info&#34; &gt;&lt;p&gt;Now there are three shortcuts to lock the screen (&lt;code&gt;xflock4&lt;/code&gt;) the other two are &lt;code&gt;Ctrl+Alt+Delete&lt;/code&gt; and &lt;code&gt;Ctrl+Alt+l&lt;/code&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&#34;notices info&#34; &gt;&lt;p&gt;The screenshot command takes a screenshot of the whole screen &lt;code&gt;-f&lt;/code&gt;, captures the mouse cursor &lt;code&gt;-m&lt;/code&gt; and waits 5 seconds before taking it. &lt;code&gt;-d 5&lt;/code&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;h5 id=&#34;layout&#34;&gt;Layout&lt;/h5&gt;
+
+&lt;p&gt;Unselect &lt;code&gt;Use system defaults&lt;/code&gt; then under Change layout option: &lt;code&gt;Alt+Caps Lock&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;window-manager-tweaks&#34;&gt;Window Manager Tweaks&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/accessibilities.png&#34; alt=&#34;Accessibilities location&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Menu → Settings → Window Manager Tweaks → Accessibility tab&lt;/p&gt;
+
+&lt;p&gt;To be able to scroll in a non-focused window without changing focus: Uncheck &lt;code&gt;Raise windows when any mouse button is pressed&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;questionable-change&#34;&gt;Questionable change&lt;/h3&gt;
+
+&lt;p&gt;Change &lt;code&gt;Key used to grab and move windows:&lt;/code&gt; to &lt;code&gt;Super&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;panel&#34;&gt;Panel&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/panel_settings.png&#34; alt=&#34;Panel settings&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;My preference is one panel so delete any other panels if they exist. I prefer the traditional looking panels too so if one looks like the macOS bar get rid of that one.&lt;/p&gt;
+
+&lt;h5 id=&#34;display&#34;&gt;Display&lt;/h5&gt;
+
+&lt;p&gt;F1:&lt;br /&gt;
+The defaults are fine for my one of two favorites.&lt;/p&gt;
+
+&lt;p&gt;F2:&lt;br /&gt;
+For the other then change &lt;code&gt;Row Size (pixels):&lt;/code&gt; to around &lt;code&gt;48&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h5 id=&#34;items&#34;&gt;Items&lt;/h5&gt;
+
+&lt;p&gt;If &lt;code&gt;Applications Menu&lt;/code&gt; is in use &lt;strong&gt;remove&lt;/strong&gt; it (click on the &lt;code&gt;-&lt;/code&gt;) and &lt;strong&gt;add&lt;/strong&gt; (click the &lt;code&gt;+&lt;/code&gt;) &lt;code&gt;Whisker Menu&lt;/code&gt; and put at the top of the list if it isn&amp;rsquo;t already.&lt;/p&gt;
+
+&lt;p&gt;Add &lt;code&gt;PulseAudio Plugin&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;F2:&lt;br /&gt;
+Select &lt;code&gt;Window Buttons&lt;/code&gt; and then &lt;strong&gt;edit&lt;/strong&gt; it (the button below the &lt;code&gt;-&lt;/code&gt;). Deselect &lt;code&gt;Show button labels&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;questionable-change-1&#34;&gt;Questionable change&lt;/h3&gt;
+
+&lt;p&gt;Set &lt;code&gt;Window grouping:&lt;/code&gt; to &lt;code&gt;Always&lt;/code&gt;. This has the benefit of showing the title bar of all windows of the same type when you click on its icon on the bar instead of having to hover over each one to see which is which.&lt;/p&gt;
+
+&lt;p&gt;Add &lt;code&gt;Screenshot a launcher next to the&lt;/code&gt;menu`&lt;/p&gt;
+
+&lt;h2 id=&#34;window-manager&#34;&gt;Window Manager&lt;/h2&gt;
+
+&lt;h4 id=&#34;keyboard&#34;&gt;Keyboard&lt;/h4&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Action&lt;/th&gt;
+&lt;th&gt;Shortcut&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Maximize window&lt;/td&gt;
+&lt;td&gt;Super+Up&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Shade window&lt;/td&gt;
+&lt;td&gt;Alt+Super+Up&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Toggle above&lt;/td&gt;
+&lt;td&gt;Ctrl+Alt+U (testing this out)&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Tile window to the top&lt;/td&gt;
+&lt;td&gt;Shift+Super+Up&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Tile window to the bottom&lt;/td&gt;
+&lt;td&gt;Shift+Super+Down&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Tile Window to the left&lt;/td&gt;
+&lt;td&gt;Super+Left&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Tile Window to the right&lt;/td&gt;
+&lt;td&gt;Super+Right&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Tile window to the top-left&lt;/td&gt;
+&lt;td&gt;Shift+Ctrl+Super+Left&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Tile window to the top-right&lt;/td&gt;
+&lt;td&gt;Shift+Ctrl+Super+Right&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Tile window to the bottom-left&lt;/td&gt;
+&lt;td&gt;Ctrl+Super+Left&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Tile window to the bottom-right&lt;/td&gt;
+&lt;td&gt;Ctrl+Super+Right&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&#34;questionable-change-2&#34;&gt;Questionable change&lt;/h3&gt;
+
+&lt;h4 id=&#34;advanced&#34;&gt;Advanced&lt;/h4&gt;
+
+&lt;p&gt;Under &lt;code&gt;Windows snapping&lt;/code&gt; check &lt;code&gt;To other windows&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h1 id=&#34;other&#34;&gt;Other&lt;/h1&gt;
+
+&lt;p&gt;Fix cursor not changing:&lt;br /&gt;
+&lt;a href=&#34;https://bbs.archlinux.org/viewtopic.php?id=131065&#34;&gt;https://bbs.archlinux.org/viewtopic.php?id=131065&lt;/a&gt;&lt;/p&gt;
+
+&lt;h5 id=&#34;clock&#34;&gt;Clock&lt;/h5&gt;
+
+&lt;p&gt;Right-click on the clock on the panel and select &lt;code&gt;Properties&lt;/code&gt;. Set the &lt;code&gt;Format:&lt;/code&gt; to &lt;code&gt;Custom Format&lt;/code&gt; and set it to this format: &lt;code&gt;&amp;lt;b&amp;gt;%T // %F // %a&amp;lt;/b&amp;gt;&lt;/code&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>updating</title>
+      <link>https://ao152867.github.io/on-my-mind/linux/updating/</link>
+      <pubDate>Sat, 04 Feb 2017 17:50:06 +0200</pubDate>
+      
+      <guid>https://ao152867.github.io/on-my-mind/linux/updating/</guid>
+      <description>
+
+&lt;h3 id=&#34;automatic-update&#34;&gt;Automatic update&lt;/h3&gt;
+
+&lt;h5 id=&#34;ana-cron&#34;&gt;(ana)cron&lt;/h5&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.digitalocean.com/community/tutorials/how-to-schedule-routine-tasks-with-cron-and-anacron-on-a-vps#using-anacron-with-cron&#34;&gt;https://www.digitalocean.com/community/tutorials/how-to-schedule-routine-tasks-with-cron-and-anacron-on-a-vps#using-anacron-with-cron&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://www.thegeekstuff.com/2011/05/anacron-examples/&#34;&gt;http://www.thegeekstuff.com/2011/05/anacron-examples/&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;https://help.ubuntu.com/community/CronHowto#How_Anacron_is_Set_Up&#34;&gt;https://help.ubuntu.com/community/CronHowto#How_Anacron_is_Set_Up&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://askubuntu.com/questions/122358/run-etc-cron-daily-apt-at-a-specific-time-i-e-without-anacron&#34;&gt;http://askubuntu.com/questions/122358/run-etc-cron-daily-apt-at-a-specific-time-i-e-without-anacron&lt;/a&gt;&lt;br /&gt;
+apticron: &lt;a href=&#34;https://debian-administration.org/article/491/Automatic_package_update_nagging_with_apticron&#34;&gt;https://debian-administration.org/article/491/Automatic_package_update_nagging_with_apticron&lt;/a&gt;&lt;/p&gt;
+
+&lt;h5 id=&#34;unattended-upgrades&#34;&gt;unattended-upgrades&lt;/h5&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://serverfault.com/questions/61770/ubuntu-8-04-hardy-how-to-automatically-apt-get-aptitude-upgrade-packages-fo&#34;&gt;http://serverfault.com/questions/61770/ubuntu-8-04-hardy-how-to-automatically-apt-get-aptitude-upgrade-packages-fo&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;https://wiki.debian.org/UnattendedUpgrades&#34;&gt;https://wiki.debian.org/UnattendedUpgrades&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;https://feeding.cloud.geek.nz/posts/using-unattended-upgrades-on-rackspace-debian-ubuntu-servers/&#34;&gt;https://feeding.cloud.geek.nz/posts/using-unattended-upgrades-on-rackspace-debian-ubuntu-servers/&lt;/a&gt;&lt;br /&gt;
+Ubuntu tutorial: &lt;a href=&#34;https://help.ubuntu.com/lts/serverguide/automatic-updates.html&#34;&gt;https://help.ubuntu.com/lts/serverguide/automatic-updates.html&lt;/a&gt;&lt;br /&gt;
+Ubuntu other ?: &lt;a href=&#34;https://help.ubuntu.com/12.04/serverguide/automatic-updates.html#update-notifications&#34;&gt;https://help.ubuntu.com/12.04/serverguide/automatic-updates.html#update-notifications&lt;/a&gt;&lt;br /&gt;
+Ubunto 3rd: &lt;a href=&#34;https://help.ubuntu.com/community/AutoWeeklyUpdateHowTo&#34;&gt;https://help.ubuntu.com/community/AutoWeeklyUpdateHowTo&lt;/a&gt;&lt;br /&gt;
+Ubuntu 4th: &lt;a href=&#34;https://help.ubuntu.com/12.04/serverguide/automatic-updates.html&#34;&gt;https://help.ubuntu.com/12.04/serverguide/automatic-updates.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;h6 id=&#34;whitelisting&#34;&gt;whitelisting ???&lt;/h6&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.google.fi/search?q=unattended+upgrades+whitelist&amp;amp;oq=unattended+upgrades+whitelist&amp;amp;aqs=chrome..69i57.4366j0j7&amp;amp;client=ubuntu&amp;amp;sourceid=chrome&amp;amp;ie=UTF-8&#34;&gt;https://www.google.fi/search?q=unattended+upgrades+whitelist&amp;amp;oq=unattended+upgrades+whitelist&amp;amp;aqs=chrome..69i57.4366j0j7&amp;amp;client=ubuntu&amp;amp;sourceid=chrome&amp;amp;ie=UTF-8&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Monthly: &lt;a href=&#34;https://lists.ubuntu.com/archives/ubuntu-server/2016-July/007386.html&#34;&gt;https://lists.ubuntu.com/archives/ubuntu-server/2016-July/007386.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;On demand: &lt;a href=&#34;http://askubuntu.com/questions/444711/how-can-i-force-unattended-upgrades-to-run-on-demand&#34;&gt;http://askubuntu.com/questions/444711/how-can-i-force-unattended-upgrades-to-run-on-demand&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://blog.sleeplessbeastie.eu/2015/01/02/how-to-perform-unattended-upgrades/&#34;&gt;https://blog.sleeplessbeastie.eu/2015/01/02/how-to-perform-unattended-upgrades/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Specific packages:&lt;br /&gt;
+&lt;a href=&#34;http://askubuntu.com/questions/714886/how-to-upgrade-specific-package-using-unattended-upgrades&#34;&gt;http://askubuntu.com/questions/714886/how-to-upgrade-specific-package-using-unattended-upgrades&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Debian: &lt;a href=&#34;https://wiki.debian.org/UnattendedUpgrades&#34;&gt;https://wiki.debian.org/UnattendedUpgrades&lt;/a&gt;&lt;/p&gt;
+
+&lt;h5 id=&#34;run-parts&#34;&gt;run-parts&lt;/h5&gt;
+
+&lt;p&gt;Part of cron ? &lt;a href=&#34;http://man.cx/run-parts(8&#34;&gt;http://man.cx/run-parts(8&lt;/a&gt;)&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

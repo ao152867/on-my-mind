@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Servers on On My Mind</title>
+    <link>https://ao152867.github.io/on-my-mind/server/index.xml</link>
+    <description>Recent content in Servers on On My Mind</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 16 Feb 2017 22:28:29 +0200</lastBuildDate>
+    <atom:link href="https://ao152867.github.io/on-my-mind/server/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>server</title>
+      <link>https://ao152867.github.io/on-my-mind/server/</link>
+      <pubDate>Thu, 16 Feb 2017 22:28:29 +0200</pubDate>
+      
+      <guid>https://ao152867.github.io/on-my-mind/server/</guid>
+      <description>
+
+&lt;h3 id=&#34;chapter-x&#34;&gt;Chapter X&lt;/h3&gt;
+
+&lt;h1 id=&#34;some-chapter-title&#34;&gt;Some Chapter title&lt;/h1&gt;
+
+&lt;p&gt;Lorem ipsum&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>general</title>
+      <link>https://ao152867.github.io/on-my-mind/server/general/</link>
+      <pubDate>Thu, 16 Feb 2017 22:29:11 +0200</pubDate>
+      
+      <guid>https://ao152867.github.io/on-my-mind/server/general/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://scotch.io/tutorials/how-to-create-a-vagrant-base-box-from-an-existing-one&#34;&gt;Create a Vagrant Base Box&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://laravel.com/docs/5.4/homestead&#34;&gt;Laravel Homestead&lt;/a&gt; is supposed to be a super simple way of setting up a LAMP server, but I haven&amp;rsquo;t found anyone that has gotten it to install correctly and then not die a horrible death. I&amp;rsquo;ve installed it but with modifications not mentioned. I&amp;rsquo;d rather use vagrant with ansible to set up a server.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://davejustdave.com/2016/03/08/how-to-upgrade-laravel-homestead-vagrant-box/&#34;&gt;updating homestead&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/tonyskn/vagrant-arch-ansible&#34;&gt;Vagrant Arch Linux Bootstrap&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

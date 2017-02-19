@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>On My Mind</title>
+    <link>https://ao152867.github.io/on-my-mind/index.xml</link>
+    <description>Recent content on On My Mind</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 17 Feb 2017 18:11:01 +0200</lastBuildDate>
+    <atom:link href="https://ao152867.github.io/on-my-mind/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>general</title>
+      <link>https://ao152867.github.io/on-my-mind/elastic/general/</link>
+      <pubDate>Fri, 17 Feb 2017 18:11:01 +0200</pubDate>
+      
+      <guid>https://ao152867.github.io/on-my-mind/elastic/general/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.elastic.co/&#34;&gt;https://www.elastic.co/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://richardhayler.blogspot.fi/2015/02/elasticsearch-on-raspberry-pi.html&#34;&gt;http://richardhayler.blogspot.fi/2015/02/elasticsearch-on-raspberry-pi.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.restapitutorial.com/lessons/whatisrest.html&#34;&gt;What is REST?&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>audio</title>
+      <link>https://ao152867.github.io/on-my-mind/media/audio/</link>
+      <pubDate>Fri, 17 Feb 2017 15:56:22 +0200</pubDate>
+      
+      <guid>https://ao152867.github.io/on-my-mind/media/audio/</guid>
+      <description>
+
+&lt;h3 id=&#34;spotify&#34;&gt;Spotify&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://community.spotify.com/t5/Accounts-and-Subscriptions/How-to-switch-the-web-UI-language-to-English/td-p/275638&#34;&gt;Change web UI language to English&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>videos</title>
+      <link>https://ao152867.github.io/on-my-mind/media/videos/</link>
+      <pubDate>Fri, 17 Feb 2017 15:56:17 +0200</pubDate>
+      
+      <guid>https://ao152867.github.io/on-my-mind/media/videos/</guid>
+      <description>
+
+&lt;h3 id=&#34;subtitles&#34;&gt;Subtitles&lt;/h3&gt;
+
+&lt;p&gt;Play own subtitles over streaming video:&lt;br /&gt;
+&lt;a href=&#34;http://askubuntu.com/questions/437168/play-subtitle-on-online-streaming-movies&#34;&gt;http://askubuntu.com/questions/437168/play-subtitle-on-online-streaming-movies&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;https://ubuntuforums.org/showthread.php?t=1998675&#34;&gt;https://ubuntuforums.org/showthread.php?t=1998675&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;BBC guidelines for subtitles:&lt;br /&gt;
+&lt;a href=&#34;http://bbc.github.io/subtitle-guidelines/&#34;&gt;http://bbc.github.io/subtitle-guidelines/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Media file name fixes:&lt;br /&gt;
+Directory renaming:&lt;br /&gt;
+&lt;a href=&#34;https://www.filebot.net/forums/viewtopic.php?t=2833&#34;&gt;https://www.filebot.net/forums/viewtopic.php?t=2833&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Subtitles are wrong more and more as video plays ? Probably a different frame rate.&lt;br /&gt;
+Need to shift subtitles ?&lt;br /&gt;
+Expand/narrow the subtitles&lt;br /&gt;
+&lt;a href=&#34;http://subtitlefix.com/index.php&#34;&gt;http://subtitlefix.com/index.php&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Something:&lt;br /&gt;
+&lt;a href=&#34;http://www.htpcbeginner.com/sickbeard-vs-sickrage/&#34;&gt;http://www.htpcbeginner.com/sickbeard-vs-sickrage/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.reddit.com/r/kodi/comments/53qcpk/delete_subtitle_service/&#34;&gt;Delete Subtitle Service&lt;/a&gt; - Settings -&amp;gt; Addons -&amp;gt; My Addons -&amp;gt; Subtitles&lt;/p&gt;
+
+&lt;h3 id=&#34;plex&#34;&gt;Plex&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.plex.tv/downloads/&#34;&gt;https://www.plex.tv/downloads/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;filebot&#34;&gt;FileBot&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.filebot.net/&#34;&gt;http://www.filebot.net/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.filebot.net/naming.html&#34;&gt;Format Expressions&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.filebot.net/forums/viewtopic.php?f=8&amp;amp;t=85&amp;amp;sid=eac9de203b265b938baa5c38089ae1c2&amp;amp;start=25&#34;&gt;Rename Directories too&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;kodi&#34;&gt;Kodi&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://kodi.wiki/view/Naming_video_files/Movies&#34;&gt;Naming conventions&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;areena&#34;&gt;areena&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://areena.yle.fi/tv/a-o&#34;&gt;Areena A-Ö&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://areena.yle.fi/1-3051630&#34;&gt;Matematiikan taikaa&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://areena.yle.fi/1-3750146&#34;&gt;Rosan koodi&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.rosankoodi.fi/&#34;&gt;Rosan koodi - website&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;other&#34;&gt;Other&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/rg3/youtube-dl/releases&#34;&gt;youtube-dl&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://aajanki.github.io/yle-dl/&#34;&gt;yle-dl&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.homelinuxpc.com/download/&#34;&gt;Other Finnish stuff ?&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>games</title>
+      <link>https://ao152867.github.io/on-my-mind/media/games/</link>
+      <pubDate>Fri, 17 Feb 2017 15:56:10 +0200</pubDate>
+      
+      <guid>https://ao152867.github.io/on-my-mind/media/games/</guid>
+      <description>
+
+&lt;p&gt;XBox 360 battery pack tear down&lt;br /&gt;
+&lt;a href=&#34;http://www.instructables.com/id/Xbox-360-Rechargeable-Battery-Pack-Tear-down/&#34;&gt;http://www.instructables.com/id/Xbox-360-Rechargeable-Battery-Pack-Tear-down/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Triforce Heroes costumes&lt;br /&gt;
+&lt;a href=&#34;http://www.ign.com/wikis/the-legend-of-zelda-tri-force-heroes/Costumes&#34;&gt;http://www.ign.com/wikis/the-legend-of-zelda-tri-force-heroes/Costumes&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://segmentnext.com/2015/10/26/zelda-triforce-heroes-costumes-and-materials-locations-guide/&#34;&gt;http://segmentnext.com/2015/10/26/zelda-triforce-heroes-costumes-and-materials-locations-guide/&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://gameswiki.net/the-legend-of-zelda-triforce-heroes-how-to-get-all-materials-guide/&#34;&gt;http://gameswiki.net/the-legend-of-zelda-triforce-heroes-how-to-get-all-materials-guide/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;star-wars-galaxy-of-heroes&#34;&gt;Star Wars: Galaxy of Heroes&lt;/h3&gt;
+
+&lt;p&gt;Heroes timesheet Q1 2017: &lt;a href=&#34;https://www.reddit.com/r/SWGalaxyOfHeroes/comments/5ozp5y/updated_dates_for_upcoming_events/&#34;&gt;https://www.reddit.com/r/SWGalaxyOfHeroes/comments/5ozp5y/updated_dates_for_upcoming_events/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.swgohcantina.com/swgoh-shard-farming-locations/&#34;&gt;Shard farming locations&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;pokémon&#34;&gt;Pokémon&lt;/h3&gt;
+
+&lt;p&gt;Sun &amp;amp; Moon useful people and their locations&lt;br /&gt;
+&lt;a href=&#34;http://www.serebii.net/sunmoon/useful.shtml&#34;&gt;http://www.serebii.net/sunmoon/useful.shtml&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Naturaleza - Pokémon&lt;br /&gt;
+&lt;a href=&#34;http://es.pokemon.wikia.com/wiki/Naturaleza&#34;&gt;http://es.pokemon.wikia.com/wiki/Naturaleza&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;boardgames&#34;&gt;Boardgames&lt;/h3&gt;
+
+&lt;h4 id=&#34;eldritch&#34;&gt;Eldritch&lt;/h4&gt;
+
+&lt;p&gt;Multiple rumours at once (yes):&lt;br /&gt;
+&lt;a href=&#34;https://boardgamegeek.com/thread/1177093/quick-question-rumors&#34;&gt;https://boardgamegeek.com/thread/1177093/quick-question-rumors&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;General stuff&lt;br /&gt;
+&lt;a href=&#34;https://www.reddit.com/r/boardgames/comments/36w98j/is_my_game_group_playing_eldritch_horror_wrong/&#34;&gt;https://www.reddit.com/r/boardgames/comments/36w98j/is_my_game_group_playing_eldritch_horror_wrong/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Traveling questions&lt;br /&gt;
+&lt;a href=&#34;https://boardgamegeek.com/thread/1094339/traveling-ticket&#34;&gt;https://boardgamegeek.com/thread/1094339/traveling-ticket&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://eldritchhorrorgame.wikia.com/wiki/Travel&#34;&gt;http://eldritchhorrorgame.wikia.com/wiki/Travel&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;https://community.fantasyflightgames.com/topic/136150-travel-confusion/&#34;&gt;https://community.fantasyflightgames.com/topic/136150-travel-confusion/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;3ds-homebrew&#34;&gt;3DS homebrew&lt;/h3&gt;
+
+&lt;p&gt;3DS SDCard Backup Manager&lt;br /&gt;
+&lt;a href=&#34;https://gbatemp.net/threads/3ds-sdcard-backup-manager.363997/&#34;&gt;https://gbatemp.net/threads/3ds-sdcard-backup-manager.363997/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;3DS guide&lt;br /&gt;
+&lt;a href=&#34;https://3ds.guide/installing-arm9loaderhax.html&#34;&gt;https://3ds.guide/installing-arm9loaderhax.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;f3 sd checker&lt;br /&gt;
+&lt;a href=&#34;https://3ds.guide/f3-(linux&#34;&gt;https://3ds.guide/f3-(linux&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;freeshop (what is it ?): &lt;a href=&#34;https://gbatemp.net/threads/release-freeshop-open-source-eshop-alternative.426573/&#34;&gt;https://gbatemp.net/threads/release-freeshop-open-source-eshop-alternative.426573/&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;https://www.youtube.com/watch?v=_ZaIzjumVMs&#34;&gt;https://www.youtube.com/watch?v=_ZaIzjumVMs&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;https://freeshop.pw/&#34;&gt;https://freeshop.pw/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;hblauncher_loader v1.3:&lt;br /&gt;
+&lt;a href=&#34;https://github.com/yellows8/hblauncher_loader/releases&#34;&gt;https://github.com/yellows8/hblauncher_loader/releases&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Post installation</title>
+      <link>https://ao152867.github.io/on-my-mind/linux/post-install/</link>
+      <pubDate>Thu, 16 Feb 2017 22:33:12 +0200</pubDate>
+      
+      <guid>https://ao152867.github.io/on-my-mind/linux/post-install/</guid>
+      <description>
+
+&lt;h2 id=&#34;sysrq&#34;&gt;SysRq&lt;/h2&gt;
+
+&lt;p&gt;Make sure to have this enabled in case there is some freeze in the system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.maketecheasier.com/the-usage-of-sysrq-key-in-linux/&#34;&gt;https://www.maketecheasier.com/the-usage-of-sysrq-key-in-linux/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Fedora explanation: &lt;a href=&#34;https://fedoraproject.org/wiki/QA/Sysrq&#34;&gt;https://fedoraproject.org/wiki/QA/Sysrq&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;linux.fi: &lt;a href=&#34;https://www.linux.fi/wiki/SysRq&#34;&gt;https://www.linux.fi/wiki/SysRq&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;wikipedia: &lt;a href=&#34;https://en.wikipedia.org/wiki/Magic_SysRq_key&#34;&gt;https://en.wikipedia.org/wiki/Magic_SysRq_key&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;arch: &lt;a href=&#34;https://wiki.archlinux.org/index.php/Keyboard_shortcuts#Terminal&#34;&gt;https://wiki.archlinux.org/index.php/Keyboard_shortcuts#Terminal&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;update-the-system&#34;&gt;Update the system&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;# Debian based (Ubuntu, Mint, etc.)
+sudo apt update &amp;amp;&amp;amp; sudo apt upgrade
+
+# Red Hat based (e.g. Fedora, CentOS, etc.)
+sudo dnf update
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;install-additional-programs&#34;&gt;Install additional programs&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Program&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;htop&lt;/td&gt;
+&lt;td&gt;Fancier version of &lt;code&gt;top&lt;/code&gt;, Interactive process viewer&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;vim-*&lt;/td&gt;
+&lt;td&gt;Text editor with improved enhancements/scripts&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;git&lt;/td&gt;
+&lt;td&gt;the stupid content tracker &lt;a href=&#34;#1&#34;&gt;1&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;ansible&lt;/td&gt;
+&lt;td&gt;IT Automation&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;gimp&lt;/td&gt;
+&lt;td&gt;image manipulation and paint program&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;tmux&lt;/td&gt;
+&lt;td&gt;terminal multiplexer&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;atom&lt;/td&gt;
+&lt;td&gt;hackable text editor (graphical)&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;thonny&lt;/td&gt;
+&lt;td&gt;Beginner&amp;rsquo;s python IDE (without the distractions and with great debugger)&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;zsh&lt;/td&gt;
+&lt;td&gt;the Z shell&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&#34;available-in-the-repositories&#34;&gt;Available in the repositories&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;# Debian based (Ubuntu, Mint, etc.)
+sudo apt install htop vim-scripts git ansible gimp tmux zsh
+
+# Red Hat based (e.g. Fedora, CentOS, etc.)
+sudo dnf install htop vim-enhanced git-all ansible gimp powerline tmux zsh
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;atom&#34;&gt;atom&lt;/h3&gt;
+
+&lt;p&gt;Seeing as atom isn&amp;rsquo;t in most repos manual installation is required.&lt;/p&gt;
+
+&lt;p&gt;Go to &lt;a href=&#34;https://atom.io/&#34;&gt;https://atom.io/&lt;/a&gt; and select the appropriate filetype.&lt;/p&gt;
+
+&lt;p&gt;To &lt;a href=&#34;http://unix.stackexchange.com/questions/249167/install-locally-using-dnf-in-fedora-without-using-internet-connection&#34;&gt;install the RPM&lt;/a&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;# this will also pull down dependencies
+sudo dnf install /path/to/atom-install-file.rpm
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;div class=&#34;notices tip&#34; &gt;&lt;p&gt;&lt;code&gt;Ctrl+Shift+p&lt;/code&gt; opens the command palette. Can type &lt;code&gt;Welcome&lt;/code&gt; to rerun the welcome guide.&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;h3 id=&#34;thonny&#34;&gt;thonny&lt;/h3&gt;
+
+&lt;h1 id=&#34;don-t-do-this-just-use-the-script&#34;&gt;Don&amp;rsquo;t do this just use the script&lt;/h1&gt;
+
+&lt;p&gt;You can check if the package is available by typing:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;pip3 search thonny
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;To install it:&lt;/p&gt;
+
+&lt;h1 id=&#34;check-on-an-ubuntu-machine-and-see-where-it-actually-installs-thonny-to&#34;&gt;Check on an Ubuntu machine and see where it actually installs thonny to&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;# Ubuntu - Installs to .local/bin
+pip3 install thonny
+
+# Fedora - get error if not using sudo
+sudo pip3 install thonny
+
+#This will require installing tkinter which starts getting messy easier to use the bash script located on the site to do the install
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;don-t-do-this-just-use-the-script-1&#34;&gt;/Don&amp;rsquo;t do this just use the script&lt;/h1&gt;
+
+&lt;h4 id=&#34;adding-to-path&#34;&gt;Adding to PATH&lt;/h4&gt;
+
+&lt;p&gt;You should be able type the command in the terminal (Probably best to always start it from a terminal rather than creating a launcher; that way if there is an infinite loop or something it is real easy to terminate the program)&lt;/p&gt;
+
+&lt;p&gt;If it isn&amp;rsquo;t a recognized command then check if its path is included in your &lt;code&gt;$PATH&lt;/code&gt; by typing in:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;echo $PATH
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If not then add it by going to your profile file (~/.profile, ~/.bash_profile) and look for the line that starts with &lt;code&gt;PATH=&lt;/code&gt; then appending to the line &lt;code&gt;:/path/to/thonny&#39;s/directory&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;If you don&amp;rsquo;t have one you could add one by doing something like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;PATH=$PATH:$HOME/.local/bin:$HOME/bin
+
+export PATH
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;notes&#34;&gt;Notes&lt;/h2&gt;
+
+&lt;h5 id=&#34;1&#34;&gt;1&lt;/h5&gt;
+
+&lt;p&gt;At the time of writing git-all is broken for Debian based systems so using git instead.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>general</title>
+      <link>https://ao152867.github.io/on-my-mind/server/general/</link>
+      <pubDate>Thu, 16 Feb 2017 22:29:11 +0200</pubDate>
+      
+      <guid>https://ao152867.github.io/on-my-mind/server/general/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://scotch.io/tutorials/how-to-create-a-vagrant-base-box-from-an-existing-one&#34;&gt;Create a Vagrant Base Box&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://laravel.com/docs/5.4/homestead&#34;&gt;Laravel Homestead&lt;/a&gt; is supposed to be a super simple way of setting up a LAMP server, but I haven&amp;rsquo;t found anyone that has gotten it to install correctly and then not die a horrible death. I&amp;rsquo;ve installed it but with modifications not mentioned. I&amp;rsquo;d rather use vagrant with ansible to set up a server.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://davejustdave.com/2016/03/08/how-to-upgrade-laravel-homestead-vagrant-box/&#34;&gt;updating homestead&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/tonyskn/vagrant-arch-ansible&#34;&gt;Vagrant Arch Linux Bootstrap&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Scripts</title>
+      <link>https://ao152867.github.io/on-my-mind/pi/scripts/</link>
+      <pubDate>Sun, 12 Feb 2017 22:17:56 +0200</pubDate>
+      
+      <guid>https://ao152867.github.io/on-my-mind/pi/scripts/</guid>
+      <description>
+
+&lt;h3 id=&#34;update-script&#34;&gt;Update script&lt;/h3&gt;
+
+&lt;p&gt;Really small SD card keeps running out of space. Small script to run when updating so I don&amp;rsquo;t have to have to do less work until stuff hits the fan.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;#!/bin/bash
+
+## Update script ##
+
+freeSpace=$(df / | grep -i / | awk &#39;{print $4}&#39;)
+counter=0
+cleaner=&amp;quot;autoclean&amp;quot;
+
+# Check if the user is root
+if [ $(id -u) -ne 0 ]; then
+  echo &amp;quot;Login as root to run this script.&amp;quot;
+  exit 1
+fi
+
+while true; do
+  # Check how many times this script has been run
+  if [ $counter -eq 1 ]; then
+    # change cleaner to clean to be more agressive
+    cleaner=&amp;quot;clean&amp;quot;
+  # After two tries exit script
+  elif [ $counter -eq 2 ]; then
+    echo &amp;quot;Still insufficient space. Please check what is taking up so much space.&amp;quot;
+    exit 1
+  fi
+
+  # Check if there is enough space to perform an update.
+  # Guestimating this at a bit under 100M
+  if [ $freeSpace -gt 100000 ]; then
+    echo &amp;quot;Updating...&amp;quot;
+    apt-get update
+    apt-get -y upgrade
+    echo &amp;quot;clearing out some cache&amp;quot;
+    apt-get autoclean
+    echo -n &amp;quot;remaining disk space is: &amp;quot;
+    echo -n $(df / | grep -i / | awk &#39;{print $4}&#39;)
+    echo &amp;quot; bytes.&amp;quot;
+    exit
+  else
+    echo &amp;quot;Insufficient space&amp;quot;
+    echo &amp;quot;Running &#39;apt-get $cleaner&#39; to try to clear out some space.&amp;quot;
+    echo &amp;quot;apt-get $cleaner&amp;quot;
+    let &amp;quot;counter += 1&amp;quot;
+  fi
+done
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;To check if there is enough space: &lt;a href=&#34;http://serverfault.com/questions/288270/check-if-drive-has-enough-space-before-writing&#34;&gt;http://serverfault.com/questions/288270/check-if-drive-has-enough-space-before-writing&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Create variables: &lt;a href=&#34;http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-5.html&#34;&gt;http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-5.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;if statement example: &lt;a href=&#34;http://www.tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-6.html&#34;&gt;http://www.tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-6.html&lt;/a&gt;&lt;br /&gt;
+elif reminder: &lt;a href=&#34;http://www.thegeekstuff.com/2010/06/bash-if-statement-examples/&#34;&gt;http://www.thegeekstuff.com/2010/06/bash-if-statement-examples/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[ ARG1 OP ARG2 ]; OP is -eq, -ne, -lt, -le, -gt or -ge: &lt;a href=&#34;http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_07_01.html&#34;&gt;http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_07_01.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;while loop: &lt;a href=&#34;https://linux.die.net/Bash-Beginners-Guide/sect_09_02.html&#34;&gt;https://linux.die.net/Bash-Beginners-Guide/sect_09_02.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;plus-equal: &lt;a href=&#34;http://tldp.org/LDP/abs/html/ops.html&#34;&gt;http://tldp.org/LDP/abs/html/ops.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;exit with error code (not really taken advantage of): &lt;a href=&#34;http://stackoverflow.com/questions/1378274/in-a-bash-script-how-can-i-exit-the-entire-script-if-a-certain-condition-occurs&#34;&gt;http://stackoverflow.com/questions/1378274/in-a-bash-script-how-can-i-exit-the-entire-script-if-a-certain-condition-occurs&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Not used in script:&lt;/p&gt;
+
+&lt;p&gt;for loop: &lt;a href=&#34;https://www.cyberciti.biz/faq/bash-for-loop/&#34;&gt;https://www.cyberciti.biz/faq/bash-for-loop/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;functions: &lt;a href=&#34;http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-8.html&#34;&gt;http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-8.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;concatenation: &lt;a href=&#34;http://stackoverflow.com/questions/4181703/how-to-concatenate-string-variables-in-bash&#34;&gt;http://stackoverflow.com/questions/4181703/how-to-concatenate-string-variables-in-bash&lt;/a&gt;&lt;/p&gt;
+
+&lt;h5 id=&#34;need-to-look-into&#34;&gt;Need to look into&lt;/h5&gt;
+
+&lt;p&gt;People seem to be saying clean/autoclean do different things for them.&lt;br /&gt;
+&lt;a href=&#34;http://askubuntu.com/questions/65549/var-cache-apt-archives-occupying-huge-space&#34;&gt;http://askubuntu.com/questions/65549/var-cache-apt-archives-occupying-huge-space&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>General</title>
+      <link>https://ao152867.github.io/on-my-mind/windoze/general/</link>
+      <pubDate>Fri, 10 Feb 2017 11:45:59 +0200</pubDate>
+      
+      <guid>https://ao152867.github.io/on-my-mind/windoze/general/</guid>
+      <description>&lt;p&gt;Windows 7 auto login:&lt;br /&gt;
+&lt;a href=&#34;https://technet.microsoft.com/en-us/library/ee872306.aspx&#34;&gt;https://technet.microsoft.com/en-us/library/ee872306.aspx&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Reinitializing MAC on clone:&lt;br /&gt;
+&lt;a href=&#34;https://forums.virtualbox.org/viewtopic.php?f=1&amp;amp;t=43382&#34;&gt;https://forums.virtualbox.org/viewtopic.php?f=1&amp;amp;t=43382&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Disable Automatic updates in server 2016:&lt;br /&gt;
+&lt;a href=&#34;https://social.technet.microsoft.com/Forums/office/en-US/d3a2694c-32da-4158-943a-81c2904ffb3d/disable-automatic-updates-in-2016?forum=WinServerPreview&#34;&gt;https://social.technet.microsoft.com/Forums/office/en-US/d3a2694c-32da-4158-943a-81c2904ffb3d/disable-automatic-updates-in-2016?forum=WinServerPreview&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;GPO rules:&lt;br /&gt;
+&lt;a href=&#34;http://serverfault.com/questions/607357/gpo-rule-of-thumb-for-disabled-vs-enabled-vs-not-configured&#34;&gt;http://serverfault.com/questions/607357/gpo-rule-of-thumb-for-disabled-vs-enabled-vs-not-configured&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;plabwin701&lt;br /&gt;
+&lt;a href=&#34;http://www.practice-labs.com/downloads/70-680_1_Deploying%20Windows%207.pdf&#34;&gt;http://www.practice-labs.com/downloads/70-680_1_Deploying%20Windows%207.pdf&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;https://www.microsoft.com/en-US/download/confirmation.aspx?id=53314&#34;&gt;https://www.microsoft.com/en-US/download/confirmation.aspx?id=53314&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Changing the PATH:&lt;br /&gt;
+&lt;a href=&#34;https://www.java.com/en/download/help/path.xml&#34;&gt;https://www.java.com/en/download/help/path.xml&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;If VBox guest additions break a Windows guest try: &lt;a href=&#34;https://forums.virtualbox.org/viewtopic.php?f=2&amp;amp;t=69477#p334953&#34;&gt;https://forums.virtualbox.org/viewtopic.php?f=2&amp;amp;t=69477#p334953&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;PowerShell ISE introduction: &lt;a href=&#34;https://msdn.microsoft.com/en-us/powershell/scripting/core-powershell/ise/introducing-the-windows-powershell-ise&#34;&gt;https://msdn.microsoft.com/en-us/powershell/scripting/core-powershell/ise/introducing-the-windows-powershell-ise&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Windows 7 Slipstream: &lt;a href=&#34;http://www.howtogeek.com/255540/the-last-windows-7-iso-youll-ever-need-how-to-slipstream-the-convenience-rollup/&#34;&gt;http://www.howtogeek.com/255540/the-last-windows-7-iso-youll-ever-need-how-to-slipstream-the-convenience-rollup/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.overclock.net/t/1587577/windows-7-updates-list-descriptions-telemetry&#34;&gt;http://www.overclock.net/t/1587577/windows-7-updates-list-descriptions-telemetry&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Check installs via command prompt:&lt;br /&gt;
+&lt;a href=&#34;http://serverfault.com/questions/263847/how-can-i-query-my-system-via-command-line-to-see-if-a-kb-patch-is-installed&#34;&gt;http://serverfault.com/questions/263847/how-can-i-query-my-system-via-command-line-to-see-if-a-kb-patch-is-installed&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Check installs graphically: &lt;a href=&#34;https://www.sevenforums.com/tutorials/24367-windows-update-view-update-history-details.html&#34;&gt;https://www.sevenforums.com/tutorials/24367-windows-update-view-update-history-details.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Fast Startup:&lt;br /&gt;
+&lt;a href=&#34;https://www.howtogeek.com/243901/the-pros-and-cons-of-windows-10s-fast-startup-mode/&#34;&gt;https://www.howtogeek.com/243901/the-pros-and-cons-of-windows-10s-fast-startup-mode/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.tenforums.com/tutorials/4189-fast-startup-turn-off-windows-10-a.html&#34;&gt;https://www.tenforums.com/tutorials/4189-fast-startup-turn-off-windows-10-a.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Windows Memory Diagnostic:&lt;br /&gt;
+&lt;a href=&#34;https://www.reddit.com/r/pcmasterrace/comments/2w2yh2/windowss_memory_diagnostic_lies_properly_test/&#34;&gt;https://www.reddit.com/r/pcmasterrace/comments/2w2yh2/windowss_memory_diagnostic_lies_properly_test/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>/etc</title>
+      <link>https://ao152867.github.io/on-my-mind/shell/etc/</link>
+      <pubDate>Wed, 08 Feb 2017 13:28:55 +0200</pubDate>
+      
+      <guid>https://ao152867.github.io/on-my-mind/shell/etc/</guid>
+      <description>
+
+&lt;h3 id=&#34;fstab&#34;&gt;fstab&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://help.ubuntu.com/community/Fstab&#34;&gt;https://help.ubuntu.com/community/Fstab&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://wiki.archlinux.org/index.php/Fstab&#34;&gt;https://wiki.archlinux.org/index.php/Fstab&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>VirtualBox</title>
+      <link>https://ao152867.github.io/on-my-mind/software/virtualbox/</link>
+      <pubDate>Wed, 08 Feb 2017 10:45:53 +0200</pubDate>
+      
+      <guid>https://ao152867.github.io/on-my-mind/software/virtualbox/</guid>
+      <description>
+
+&lt;h2 id=&#34;fedora-kernel-debug-devel-bug&#34;&gt;Fedora kernel-debug-devel bug&lt;/h2&gt;
+
+&lt;h4 id=&#34;background-skip&#34;&gt;Background (skip)&lt;/h4&gt;
+
+&lt;p&gt;There is a bug that has hit my laptop but not my desktop. That when I try to &lt;a href=&#34;https://www.if-not-true-then-false.com/2010/install-virtualbox-with-yum-on-fedora-centos-red-hat-rhel/&#34;&gt;install&lt;/a&gt; virtualbox I get an error which was hopefully solved by the troubleshooting but alas wasn&amp;rsquo;t because instead of &lt;code&gt;dkms&lt;/code&gt; depending on &lt;code&gt;kernel-devel&lt;/code&gt; it depends on &lt;code&gt;kernel-debug-devel&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;It seems that&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;/usr/src/kernels/`uname -r`
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;doesn&amp;rsquo;t exist instead it&amp;rsquo;s that plus &lt;code&gt;+debug&lt;/code&gt; I tried changing the KERN_DIR to match that but it failed a trip to &lt;code&gt;/var/log/vbox-install.log&lt;/code&gt; revealed that the &lt;code&gt;+debug&lt;/code&gt; was the issue for this. I was thinking of either just changing the path to match what it was looking for or symlinking but that seemed wrong and too much work.&lt;/p&gt;
+
+&lt;p&gt;So of to the net we go:&lt;/p&gt;
+
+&lt;p&gt;I found hints on a &lt;a href=&#34;http://forums.fedoraforum.org/showthread.php?t=311357&#34;&gt;Fedoraforum.org&lt;/a&gt; post. Which lead me to a bunch of bug reports about the wrong packages being pulled for other software. &lt;a href=&#34;https://bugzilla.redhat.com/show_bug.cgi?id=1284228&#34;&gt;1284228&lt;/a&gt;, &lt;a href=&#34;https://bugzilla.redhat.com/show_bug.cgi?id=1025301&#34;&gt;1025301&lt;/a&gt;, &lt;a href=&#34;https://bugzilla.redhat.com/show_bug.cgi?id=1192189&#34;&gt;1192189&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I saw mention of XFCE and the issue appearing after it. I looked for kernel-debug-modules but that wasn&amp;rsquo;t on my system. Somewhere in that sea of links and posts it hit me:&lt;/p&gt;
+
+&lt;h3 id=&#34;steps&#34;&gt;Steps&lt;/h3&gt;
+
+&lt;p&gt;Uninstall &lt;code&gt;kernel-debug-devel&lt;/code&gt; which takes &lt;code&gt;dkms&lt;/code&gt; with it. Then install &lt;code&gt;kernel-devel&lt;/code&gt; and reinstall &lt;code&gt;dkms&lt;/code&gt; with some luck the dependencies will be met.&lt;/p&gt;
+
+&lt;h2 id=&#34;configuration&#34;&gt;Configuration&lt;/h2&gt;
+
+&lt;p&gt;Change the &lt;code&gt;File -&amp;gt; Preferences...&lt;/code&gt; or &lt;code&gt;Ctrl + G&lt;/code&gt;. Under General change the &lt;code&gt;Default Machine Folder:&lt;/code&gt; by either entering the path or selecting &lt;code&gt;Other...&lt;/code&gt; in the dropdown and using the file manager to locate it.&lt;/p&gt;
+
+&lt;h3 id=&#34;other&#34;&gt;Other&lt;/h3&gt;
+
+&lt;p&gt;Defragmenting a VM on an SSD good idea or bad: &lt;a href=&#34;http://superuser.com/questions/388055/should-i-defrag-the-hard-drive-running-on-a-virtual-machine&#34;&gt;http://superuser.com/questions/388055/should-i-defrag-the-hard-drive-running-on-a-virtual-machine&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Sounds like it&amp;rsquo;ll increase the size of the VM but it might be beneficial to performances. Also, if it is desired to not run might be good to disable the auto defrag options (for Windows only or other OSes too ?).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>general</title>
+      <link>https://ao152867.github.io/on-my-mind/linux/general/</link>
+      <pubDate>Sat, 04 Feb 2017 18:10:20 +0200</pubDate>
+      
+      <guid>https://ao152867.github.io/on-my-mind/linux/general/</guid>
+      <description>
+
+&lt;p&gt;Best place to learn how to install a system step by step: &lt;a href=&#34;https://www.server-world.info/en/&#34;&gt;https://www.server-world.info/en/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Debian: &lt;a href=&#34;https://wiki.debian.org/SourcesList&#34;&gt;SourceList&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://stackoverflow.com/questions/5635651/linux-find-regex&#34;&gt;find regex&lt;/a&gt; (Not sure if this is needed or if I just did the search with an error last time.)&lt;/p&gt;
+
+&lt;p&gt;crontab run once network is up: &lt;a href=&#34;http://askubuntu.com/questions/3299/how-to-run-cron-job-when-network-is-up&#34;&gt;http://askubuntu.com/questions/3299/how-to-run-cron-job-when-network-is-up&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;troubleshooting&#34;&gt;Troubleshooting&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://wiki.archlinux.org/index.php/Reset_root_password&#34;&gt;Reset root password&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://wiki.archlinux.org/index.php/Change_root&#34;&gt;Change root&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://wiki.archlinux.org/index.php/Pacman/Package_signing&#34;&gt;pacman/Package signing&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.archlinux.org/master-keys/&#34;&gt;Arch keyrings&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://bbs.archlinux.org/viewtopic.php?id=221435&#34;&gt;Arch keyring update&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>general</title>
+      <link>https://ao152867.github.io/on-my-mind/hardware/general/</link>
+      <pubDate>Sat, 04 Feb 2017 17:59:09 +0200</pubDate>
+      
+      <guid>https://ao152867.github.io/on-my-mind/hardware/general/</guid>
+      <description>
+
+&lt;h3 id=&#34;hdd&#34;&gt;HDD&lt;/h3&gt;
+
+&lt;p&gt;WD Red VS WD Red Pro&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://nascompares.com/2016/05/10/should-you-buy-wd-red-pro-drives-or-ordinary-wd-red-nas-drives/&#34;&gt;http://nascompares.com/2016/05/10/should-you-buy-wd-red-pro-drives-or-ordinary-wd-red-nas-drives/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.tweaktown.com/articles/6550/wd-red-and-red-pro-hdd-nas-performance-analysis-in-raid-5-with-10gbe/index.html&#34;&gt;http://www.tweaktown.com/articles/6550/wd-red-and-red-pro-hdd-nas-performance-analysis-in-raid-5-with-10gbe/index.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.google.fi/search?client=ubuntu&amp;amp;hs=GB8&amp;amp;q=wd+red+pro+vs+red+nas&amp;amp;oq=wd+red+pro+vs+red+nas&amp;amp;gs_l=serp.3..0j0i22i30k1l2.1967.5365.0.5671.11.9.0.2.2.0.120.637.6j2.8.0....0...1c.1.64.serp..1.10.636.yZDCzlLvzKg&#34;&gt;https://www.google.fi/search?client=ubuntu&amp;amp;hs=GB8&amp;amp;q=wd+red+pro+vs+red+nas&amp;amp;oq=wd+red+pro+vs+red+nas&amp;amp;gs_l=serp.3..0j0i22i30k1l2.1967.5365.0.5671.11.9.0.2.2.0.120.637.6j2.8.0....0...1c.1.64.serp..1.10.636.yZDCzlLvzKg&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;hackintosh-vs-nas-box&#34;&gt;Hackintosh vs NAS box&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.tonymacx86.com/threads/hackintosh-osx-server-nas.132793/&#34;&gt;https://www.tonymacx86.com/threads/hackintosh-osx-server-nas.132793/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.reddit.com/r/homelab/comments/1qd5tf/nas_box_cpuram_requirements/?st=iw7l0jx5&amp;amp;sh=3180f562&#34;&gt;https://www.reddit.com/r/homelab/comments/1qd5tf/nas_box_cpuram_requirements/?st=iw7l0jx5&amp;amp;sh=3180f562&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://uk.pcmag.com/network-attached-storage-nas-reviews/14710/guide/the-best-nas-network-attached-storage-devices-of-2016&#34;&gt;http://uk.pcmag.com/network-attached-storage-nas-reviews/14710/guide/the-best-nas-network-attached-storage-devices-of-2016&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;syncthing&#34;&gt;Syncthing&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://syncthing.net/&#34;&gt;https://syncthing.net/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://sturmflut.github.io/linux/2015/02/22/switching-from-owncloud-to-syncthing/&#34;&gt;https://sturmflut.github.io/linux/2015/02/22/switching-from-owncloud-to-syncthing/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;arkos&#34;&gt;arkOS&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://arkos.io/what-is-arkos/&#34;&gt;https://arkos.io/what-is-arkos/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;memory-testing&#34;&gt;Memory testing&lt;/h4&gt;
+
+&lt;p&gt;Discussion on using the Windows Memory Diagnostic:&lt;br /&gt;
+&lt;a href=&#34;https://www.reddit.com/r/pcmasterrace/comments/2w2yh2/windowss_memory_diagnostic_lies_properly_test/&#34;&gt;https://www.reddit.com/r/pcmasterrace/comments/2w2yh2/windowss_memory_diagnostic_lies_properly_test/&lt;/a&gt;&lt;br /&gt;
+Topics of interest were:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.memtest.org/&#34;&gt;Memtest86+ homepage&lt;/a&gt;. And recommendation to download straight from there rather than use on a Linux distro.&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;WMD or Memtest86+ letting RAM pass/fail. Guess that means run both.&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;If memory at the beginning is corrupt then WMD might not be able to detect it ?&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Memtest86 vs Memtest86+&lt;br /&gt;
+&lt;a href=&#34;https://www.reddit.com/r/techsupport/comments/3ant3p/memtest86_does_not_appear_to_be_actively/&#34;&gt;https://www.reddit.com/r/techsupport/comments/3ant3p/memtest86_does_not_appear_to_be_actively/&lt;/a&gt;&lt;br /&gt;
+You find a post by one of the developers (of Memtest86) talking about how they&amp;rsquo;ve kept it up-to-date and it is pointed out that + has been dead for years now.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.memtest86.com/&#34;&gt;Memtest86&lt;/a&gt; has a &lt;a href=&#34;http://www.memtest86.com/features.htm&#34;&gt;comparison page&lt;/a&gt; where to use it on older (pre UEFI) systems you need to use v4 not the newer versions. But according to the &lt;a href=&#34;http://www.memtest86.com/download.htm&#34;&gt;download page&lt;/a&gt; the newer versions support dual booting that allows booting into v4. However, if it is so desired v4 is still available to download on its own.&lt;/p&gt;
+
+&lt;p&gt;Length of RAM testing:&lt;br /&gt;
+&lt;a href=&#34;https://www.reddit.com/r/techsupport/comments/1rpmcd/how_long_does_memtest86_usually_take/&#34;&gt;https://www.reddit.com/r/techsupport/comments/1rpmcd/how_long_does_memtest86_usually_take/&lt;/a&gt;&lt;br /&gt;
+Some run it overnight good enough for me.&lt;/p&gt;
+
+&lt;h3 id=&#34;drilling&#34;&gt;Drilling&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.ehow.com/how_6353716_do-drill-bit-after-use_.html&#34;&gt;http://www.ehow.com/how_6353716_do-drill-bit-after-use_.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Take a break every 5-10 minutes of use to clean.&lt;/p&gt;
+
+&lt;p&gt;Dry cloth to wipe away the debris (base to tip).&lt;/p&gt;
+
+&lt;p&gt;After finishing a job:&lt;/p&gt;
+
+&lt;p&gt;Clean with the dry towel (cloth) (base to tip) then wrap it around the bit and slowly rotate it for a few seconds.&lt;/p&gt;
+
+&lt;p&gt;Use a dry (tooth)brush to scrub off whatever doesn&amp;rsquo;t want to come off (easier if on the drill or held somehow in place).&lt;/p&gt;
+
+&lt;p&gt;A bit of machine oil after cleaning.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=rUMTJ9GZIC8&#34;&gt;https://www.youtube.com/watch?v=rUMTJ9GZIC8&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Soft materials and small bits drill at high speeds.&lt;/p&gt;
+
+&lt;p&gt;Hard materials and large bits drill at low speeds.&lt;br /&gt;
+Sparks or blue bits means that you have been drilling too fast.&lt;/p&gt;
+
+&lt;p&gt;Drill sharpening gauge.&lt;br /&gt;
+~98% of all drill bits are sharpened at 59 degrees. 118 degrees from one side to the other.&lt;/p&gt;
+
+&lt;p&gt;Land - Little strip at the edges of a drill bit.&lt;br /&gt;
+the whole body doesn&amp;rsquo;t touch the wall of what you&amp;rsquo;re drilling only the edge does. If the whole thing was then there would be a lot of friction that would cause excessive heat.&lt;/p&gt;
+
+&lt;p&gt;Body clearance - the rest of the body that doesn&amp;rsquo;t touch the walls ?&lt;/p&gt;
+
+&lt;p&gt;Flute - the &amp;ldquo;holes&amp;rdquo; on the drill bit. They allow the crud from what you&amp;rsquo;re drilling to come on out.&lt;/p&gt;
+
+&lt;p&gt;10 - 12 degree clearance on the lip. Both lips should be sharpened to equal length. When drilling if only one chip is coming out or one has more than the other then they aren&amp;rsquo;t equal pay attention that those curly chips come out even.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=cqn2VPGYA9c&#34;&gt;https://www.youtube.com/watch?v=cqn2VPGYA9c&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Chisel point the part at the tip.&lt;br /&gt;
+In big bits you need to drill a pilot hole that is equal to or more than the thickness of the chisel point. Because the chisel point does very little cutting and is just trying to force its way into the metal.&lt;/p&gt;
+
+&lt;p&gt;Smaller than &lt;sup&gt;3&lt;/sup&gt;&amp;frasl;&lt;sub&gt;16&lt;/sub&gt;&amp;rdquo; throw away.&lt;/p&gt;
+
+&lt;p&gt;Abrasive belt sander with 59 degree markers to fix em. 80 grit. Water to keep em cool. Practice on bigger bits first.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>general</title>
+      <link>https://ao152867.github.io/on-my-mind/software/general/</link>
+      <pubDate>Thu, 02 Feb 2017 18:18:51 +0200</pubDate>
+      
+      <guid>https://ao152867.github.io/on-my-mind/software/general/</guid>
+      <description>
+
+&lt;h3 id=&#34;node-js&#34;&gt;node.js&lt;/h3&gt;
+
+&lt;p&gt;If &lt;code&gt;node -v&lt;/code&gt; and &lt;code&gt;nodejs -v&lt;/code&gt; return different versions then might have some other &lt;code&gt;node&lt;/code&gt; bin installed:&lt;br /&gt;
+&lt;a href=&#34;http://stackoverflow.com/questions/14888471/node-js-version-on-the-command-line-not-the-repl&#34;&gt;http://stackoverflow.com/questions/14888471/node-js-version-on-the-command-line-not-the-repl&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>https://ao152867.github.io/on-my-mind/software/hugo/</link>
+      <pubDate>Thu, 02 Feb 2017 18:18:46 +0200</pubDate>
+      
+      <guid>https://ao152867.github.io/on-my-mind/software/hugo/</guid>
+      <description>
+
+&lt;h3 id=&#34;hugo&#34;&gt;Hugo&lt;/h3&gt;
+
+&lt;h5 id=&#34;installation&#34;&gt;Installation&lt;/h5&gt;
+
+&lt;p&gt;To install hugo head to: &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;https://github.com/spf13/hugo/releases&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;And select your OS/Architecture. If not a Debian based you&amp;rsquo;ll download the binary with the .tar.gz file extension. For the approprirate architecture.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;# Be sure to change the path and words in all caps to match the actual file and its location
+tar xvf /path/to/hugo-VERSION-NUMBER-OS-ARCHITECTURE-.tar.gz
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;div class=&#34;notices info&#34; &gt;&lt;p&gt;At least on Fedora &lt;code&gt;tar v1.29&lt;/code&gt; it decompressed without requiring the compression type.&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&#34;notices tip&#34; &gt;&lt;p&gt;Autocomplete comes in handy here. Might just be able to write &lt;code&gt;hugo&lt;/code&gt; then hit tab. If nothing appears press tab twice to see what other files have the same similar names write characters till it is unique and press tab again.&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;Install the package with:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;sudo cp /path/to/hugo-file /usr/local/bin/hugo
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>vagrant</title>
+      <link>https://ao152867.github.io/on-my-mind/software/vagrant/</link>
+      <pubDate>Thu, 02 Feb 2017 18:18:33 +0200</pubDate>
+      
+      <guid>https://ao152867.github.io/on-my-mind/software/vagrant/</guid>
+      <description>
+
+&lt;h3 id=&#34;vagrant&#34;&gt;Vagrant&lt;/h3&gt;
+
+&lt;p&gt;Delete a box from the VAGRANT_HOME: &lt;code&gt;vagrant box remove NAME&lt;/code&gt;&lt;br /&gt;
+&lt;a href=&#34;https://laracasts.com/discuss/channels/general-discussion/delete-vagrant-box?page=1&#34;&gt;https://laracasts.com/discuss/channels/general-discussion/delete-vagrant-box?page=1&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;https://docs.vagrantup.com/v2/cli/box.html&#34;&gt;https://docs.vagrantup.com/v2/cli/box.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;SSH key error: Generate the key &lt;code&gt;ssh-keygen -t rsa -C &amp;quot;name@email.com&amp;quot;&lt;/code&gt;&lt;br /&gt;
+&lt;a href=&#34;https://laravel.io/forum/06-04-2014-problem-launching-vagrant-on-homestead&#34;&gt;https://laravel.io/forum/06-04-2014-problem-launching-vagrant-on-homestead&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Move the vagrant folder out of ~ &lt;code&gt;export VAGRANT_HOME=/new/path/for/vagrant&lt;/code&gt;:&lt;br /&gt;
+&lt;a href=&#34;http://stackoverflow.com/questions/14733681/vagrant-d-outside-of-the-home-folder&#34;&gt;http://stackoverflow.com/questions/14733681/vagrant-d-outside-of-the-home-folder&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve put the &lt;code&gt;VAGRANT_HOME&lt;/code&gt; in &lt;code&gt;~/.zshrc&lt;/code&gt; but I think it actually belongs in &lt;code&gt;~/.zshenv&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Another guide explaining changing the home and VirtualBox&amp;rsquo;s VM directory: &lt;a href=&#34;https://emptysqua.re/blog/moving-virtualbox-and-vagrant-to-an-external-drive/&#34;&gt;https://emptysqua.re/blog/moving-virtualbox-and-vagrant-to-an-external-drive/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;other&#34;&gt;Other&lt;/h3&gt;
+
+&lt;p&gt;Fedora&amp;rsquo;s Vagrant page: &lt;a href=&#34;https://developer.fedoraproject.org/tools/vagrant/about.html&#34;&gt;https://developer.fedoraproject.org/tools/vagrant/about.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;List of Vagrant Environment Variables: &lt;a href=&#34;https://www.vagrantup.com/docs/other/environmental-variables.html&#34;&gt;https://www.vagrantup.com/docs/other/environmental-variables.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Vagrant from Fedora repo: &lt;a href=&#34;https://fedoramagazine.org/running-vagrant-fedora-22/&#34;&gt;https://fedoramagazine.org/running-vagrant-fedora-22/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

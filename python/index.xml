@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pythons on On My Mind</title>
+    <link>https://ao152867.github.io/on-my-mind/python/index.xml</link>
+    <description>Recent content in Pythons on On My Mind</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Feb 2017 19:31:08 +0200</lastBuildDate>
+    <atom:link href="https://ao152867.github.io/on-my-mind/python/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Python</title>
+      <link>https://ao152867.github.io/on-my-mind/python/</link>
+      <pubDate>Wed, 01 Feb 2017 19:31:08 +0200</pubDate>
+      
+      <guid>https://ao152867.github.io/on-my-mind/python/</guid>
+      <description>
+
+&lt;h3 id=&#34;chapter-x&#34;&gt;Chapter X&lt;/h3&gt;
+
+&lt;h1 id=&#34;some-chapter-title&#34;&gt;Some Chapter title&lt;/h1&gt;
+
+&lt;p&gt;Lorem ipsum&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>general</title>
+      <link>https://ao152867.github.io/on-my-mind/python/general/</link>
+      <pubDate>Wed, 01 Feb 2017 19:35:41 +0200</pubDate>
+      
+      <guid>https://ao152867.github.io/on-my-mind/python/general/</guid>
+      <description>
+
+&lt;h3 id=&#34;sleep&#34;&gt;Sleep&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.mkyong.com/python/python-how-to-delay-few-seconds/&#34;&gt;https://www.mkyong.com/python/python-how-to-delay-few-seconds/&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-py&#34;&gt;import time
+
+## Sleep for 100 seconds.
+time.sleep(100)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;comments&#34;&gt;Comments&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.pythonforbeginners.com/comments/comments-in-python&#34;&gt;http://www.pythonforbeginners.com/comments/comments-in-python&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-py&#34;&gt;# Single line
+
+&amp;quot;&amp;quot;&amp;quot;
+Multi-line comments
+Although this is frowned upon because this should actually be used for docstrings.
+&amp;quot;&amp;quot;&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h5 id=&#34;docstrings&#34;&gt;docstrings&lt;/h5&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-py&#34;&gt;def shout(word):
+    &#39;&#39;&#39;
+    Print a word with an
+    exclamation mark following it.
+    &#39;&#39;&#39;
+
+    print(word + &amp;quot;!&amp;quot;)
+
+print(shout.__doc__)
+shout(&amp;quot;spam&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This will produce:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-py&#34;&gt;Print a word with an
+exclamation mark following it.
+
+spam!
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;generate-random-strings&#34;&gt;Generate random strings&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://stackoverflow.com/questions/2030053/random-strings-in-python&#34;&gt;http://stackoverflow.com/questions/2030053/random-strings-in-python&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-py&#34;&gt;## List of things to import not string in random
+import random, string
+
+## Function that will return a string of whatever length you indicate
+def randomword(length):
+   return &#39;&#39;.join(random.choice(string.lowercase) for i in range(length))
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>modules</title>
+      <link>https://ao152867.github.io/on-my-mind/python/modules/</link>
+      <pubDate>Wed, 01 Feb 2017 19:32:20 +0200</pubDate>
+      
+      <guid>https://ao152867.github.io/on-my-mind/python/modules/</guid>
+      <description>
+
+&lt;h3 id=&#34;modules&#34;&gt;Modules&lt;/h3&gt;
+
+&lt;p&gt;Code written to perform common tasks(pi, random numbers, etc.).&lt;/p&gt;
+
+&lt;p&gt;To add a module, write this at the top of your code &lt;strong&gt;import module_name&lt;/strong&gt;. Then you can use &lt;strong&gt;module_name.var&lt;/strong&gt; to access functions and values with the name &lt;strong&gt;var&lt;/strong&gt; in the module.&lt;/p&gt;
+
+&lt;h5 id=&#34;importing&#34;&gt;importing&lt;/h5&gt;
+
+&lt;p&gt;Print a random number from 0 - 9&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-py&#34;&gt;import random
+
+print random.randint(0, 9)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If only certain functions are required from the module one can use the &lt;strong&gt;from module_name import var&lt;/strong&gt;. This allows &lt;strong&gt;var&lt;/strong&gt; to be used as if it were defined normally in the code.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-py&#34;&gt;import randint from random
+
+print randint(0, 9)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;One can use a comma separated list to import multiple objects:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-py&#34;&gt;from math import pi,sqrt
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;div class=&#34;notices info&#34; &gt;&lt;p&gt;All objects from a module can be imported: &lt;strong&gt;from math import *&lt;/strong&gt;&lt;br /&gt;
+However, this is discouraged as you might end up creating variables with the same names.&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;Modules/objects can be imported with an alias by using the &lt;strong&gt;as&lt;/strong&gt; keyword. This can be used with long or confusing names:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-py&#34;&gt;from sense_hat import SenseHat as sense
+from MySQLdb as mdb
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h5 id=&#34;standard-library&#34;&gt;Standard Library&lt;/h5&gt;
+
+&lt;p&gt;Modules preinstalled with Python, such as: string, re, datetime, math, random, os, multiprocessing, subprocess, socket, email, json, doctest, unittest, pdb, argparse and sys.&lt;/p&gt;
+
+&lt;h5 id=&#34;pip&#34;&gt;pip&lt;/h5&gt;
+
+&lt;p&gt;Installer for third-party Python modules which are stored on the Python Package Index (PyPI).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>error handling</title>
+      <link>https://ao152867.github.io/on-my-mind/python/error-handling/</link>
+      <pubDate>Wed, 01 Feb 2017 19:33:21 +0200</pubDate>
+      
+      <guid>https://ao152867.github.io/on-my-mind/python/error-handling/</guid>
+      <description>
+
+&lt;h3 id=&#34;error-handling&#34;&gt;Error handling&lt;/h3&gt;
+
+&lt;p&gt;Exceptions - Use when trying to catch other people&amp;rsquo;s errors. &amp;ldquo;..use exceptions to check the preconditions for the public API functions, and whenever you get any data that are external to your system..&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;Assertions - When trying to catch your own errors. &amp;ldquo;..use asserts for the functions or data that are internal to your system.&amp;rdquo;&lt;/p&gt;
+
+&lt;h3 id=&#34;exceptions&#34;&gt;Exceptions&lt;/h3&gt;
+
+&lt;h1 id=&#34;look-these-up-on-the-python-site-for-better-definitions&#34;&gt;Look these up on the python site for better definitions ?&lt;/h1&gt;
+
+&lt;p&gt;Common exceptions include:&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Error&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;ImportError&lt;/td&gt;
+&lt;td&gt;an import fails&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;IndexError&lt;/td&gt;
+&lt;td&gt;a list is indexed with an out-of-range number&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;NameError&lt;/td&gt;
+&lt;td&gt;an unknown variable is  used&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;SyntaxError&lt;/td&gt;
+&lt;td&gt;Code can&amp;rsquo;t be parsed properly&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;TypeError&lt;/td&gt;
+&lt;td&gt;A function is called on a value of an inappropriate type&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;ValueError&lt;/td&gt;
+&lt;td&gt;A function is called on a value of the correct type, but with an inappropriate value&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h5 id=&#34;exception-handling&#34;&gt;Exception Handling&lt;/h5&gt;
+
+&lt;p&gt;To handle exceptions and call code when an exeption occurs, use &lt;strong&gt;try/except&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;The &lt;strong&gt;try&lt;/strong&gt; block contains code that might throw an exception. If an exception occurs, the code in the &lt;strong&gt;try&lt;/strong&gt; block stops being executed and the code in the &lt;strong&gt;except&lt;/strong&gt; block is run. If no errors occur then the code in the &lt;strong&gt;except&lt;/strong&gt; block doesn&amp;rsquo;t run.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-py&#34;&gt;try:
+   num1 = 7
+   num2 = 0
+   print (num1 / num2)
+   print(&amp;quot;Done calculation&amp;quot;)
+except ZeroDivisionError:
+   print(&amp;quot;An error occurred&amp;quot;)
+   print(&amp;quot;due to zero division&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Here we write the name of the error that we&amp;rsquo;re expecting.&lt;br /&gt;
+We can have an except for each type of error and to run it&amp;rsquo;s own kind of code:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-py&#34;&gt;except ZeroDivisionError:
+  print(&amp;quot;Divided by Zero&amp;quot;)
+except (ValueError,TypeError):
+  print(&amp;quot;Something went wrong&amp;quot;)
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;or bundle some together with a generic message:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-py&#34;&gt;except (ZeroDivisionError, ValueError, TypeError):
+  print(&amp;quot;Something went wrong&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If we want a completely generic message for errors we can do something like:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-py&#34;&gt;except:
+  print(&amp;quot;Generic error message&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;finally&#34;&gt;finally&lt;/h3&gt;
+
+&lt;p&gt;Code that runs whether errors occur or not. &lt;strong&gt;finally&lt;/strong&gt; is put after &lt;strong&gt;except&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-py&#34;&gt;try:
+   print(&amp;quot;Hello&amp;quot;)
+   print(1 / 0)
+except ZeroDivisionError:
+   print(&amp;quot;Divided by zero&amp;quot;)
+finally:
+   print(&amp;quot;This code will run no matter what&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Output:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-py&#34;&gt;Hello
+Divided by zero
+This code will run no matter what
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If there was an error in the &lt;code&gt;except&lt;/code&gt; block like a &lt;code&gt;NameError&lt;/code&gt; it will still execute the finally block then show the error.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-py&#34;&gt;except ZeroDivisionError:
+  print(error)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;However, a &lt;code&gt;SyntaxError&lt;/code&gt; seems to cause something completely different to happen.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-py&#34;&gt;except ZeroDivisionError:
+  # note the space in the message
+  print(error message)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;raise&#34;&gt;raise&lt;/h3&gt;
+
+&lt;p&gt;To raise an exception use &lt;strong&gt;raise&lt;/strong&gt; followed by the type of exception.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-py&#34;&gt;print(1)
+raise ValueError
+print(2)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-py&#34;&gt;1
+ValueError
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;It is also possible to give an argument that details the exception:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-py&#34;&gt;name = &amp;quot;123&amp;quot;
+raise NameError(&amp;quot;Invalid name!&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If &lt;strong&gt;raise&lt;/strong&gt; is used in &lt;strong&gt;except&lt;/strong&gt; then it will re-raise whatever exception occurred.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-py&#34;&gt;try:
+    print(&amp;quot;trying to divide by zero..&amp;quot;)
+    num = 5 / 0
+except:
+   print(&amp;quot;An error occurred&amp;quot;)
+   raise
+finally:
+    i = 1
+    while True:
+        print(i)
+        i += 1
+        if i &amp;gt; 10:
+            break
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-py&#34;&gt;trying to divide by zero...
+An error occurred
+1
+...
+10
+
+ZeroDivisionError: division by zero
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;assertions&#34;&gt;Assertions&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;assert Expression[, Arguments]&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Sanity-check that can be turned on or off when finished testing.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.tutorialspoint.com/python/assertions_in_python.htm&#34;&gt;http://www.tutorialspoint.com/python/assertions_in_python.htm&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-py&#34;&gt;def KelvinToFahrenheit(Temperature):
+   assert (Temperature &amp;gt;= 0),&amp;quot;Colder than absolute zero!&amp;quot;
+   return ((Temperature-273)*1.8)+32
+
+print KelvinToFahrenheit(273)
+print int(KelvinToFahrenheit(505.78))
+print KelvinToFahrenheit(-5)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-py&#34;&gt;32.0
+451
+Traceback (most recent call last):
+  File &amp;quot;test.py&amp;quot;, line 9, in &amp;lt;module&amp;gt;
+    print KelvinToFahrenheit(-5)
+  File &amp;quot;test.py&amp;quot;, line 4, in KelvinToFahrenheit
+    assert (Temperature &amp;gt;= 0),&amp;quot;Colder than absolute zero!&amp;quot;
+AssertionError: Colder than absolute zero!
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>file handling</title>
+      <link>https://ao152867.github.io/on-my-mind/python/file-handling/</link>
+      <pubDate>Wed, 01 Feb 2017 19:34:10 +0200</pubDate>
+      
+      <guid>https://ao152867.github.io/on-my-mind/python/file-handling/</guid>
+      <description>
+
+&lt;h3 id=&#34;opening-files&#34;&gt;Opening files&lt;/h3&gt;
+
+&lt;p&gt;Before editing a file it must be opened:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-py&#34;&gt;myfile = open(&amp;quot;filename.txt&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Give the path to the file unless the file is in the same directory as the program.&lt;/p&gt;
+
+&lt;h4 id=&#34;mode&#34;&gt;mode&lt;/h4&gt;
+
+&lt;p&gt;Add a section argument to the open function&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Mode&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;r&lt;/td&gt;
+&lt;td&gt;read (default)&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;w&lt;/td&gt;
+&lt;td&gt;write, rewrite contents of a file&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;a&lt;/td&gt;
+&lt;td&gt;append, add new content to the end of a file&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;b&lt;/td&gt;
+&lt;td&gt;binary, used for non-text files(like images/sound files)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-py&#34;&gt;# write mode
+open(&amp;quot;filename.txt&amp;quot;, &amp;quot;w&amp;quot;)
+
+# read mode
+open(&amp;quot;filename.txt&amp;quot;, &amp;quot;r&amp;quot;)
+open(&amp;quot;filename.txt&amp;quot;)
+
+# binary write mode
+open(&amp;quot;filename.txt&amp;quot;, &amp;quot;wb&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Once a file has been opened and used it should be closed with the &lt;strong&gt;close&lt;/strong&gt; method.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-py&#34;&gt;file = open(&amp;quot;filename.txt&amp;quot;, &amp;quot;w&amp;quot;)
+# do stuff to the file
+file.close()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;reading-files&#34;&gt;Reading files&lt;/h4&gt;
+
+&lt;p&gt;To read the contents of a file that has been opened in text mode use the read method.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-py&#34;&gt;# open a file named &amp;quot;filename.txt&amp;quot; in read mode as text not binary and store in a variable
+file = open(&amp;quot;filename.txt&amp;quot;, &amp;quot;r&amp;quot;)
+# read the contents of the file and store in a variable
+cont = file.read()
+# print out the contents of the file
+print(cont)
+# close the file
+file.close()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;To read only a certain amount of a file, provide a number as an &lt;strong&gt;argument&lt;/strong&gt; to the &lt;strong&gt;read&lt;/strong&gt; function. The number stands for the number of bytes to read.&lt;/p&gt;
+
+&lt;p&gt;If filename.txt contained this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-txt&#34;&gt;It was the best of times,
+it was the worst of times,
+it was the age of wisdom,
+it was the age of foolishness,
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And we run:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-py&#34;&gt;file = open(&amp;quot;filename.txt&amp;quot;, &amp;quot;r&amp;quot;)
+print(file.read(20))
+print(file.read(4))
+print(file.read(4))
+print(file.read())
+print(file.read())
+print(file.read())
+file.close()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The output would be:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-txt&#34;&gt;It was the best of t
+imes
+,
+it
+ was the worst of times,
+it was the age of wisdom,
+it was the age of foolishness,
+it was the epoch of belief, it was the epoch of incredulity,
+it was the season of Light, it was the season of Darkness
+
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;As you can see it continues from the point it left off at for each run of the command. If we reach the end of a line the newline counts as one byte as can be seen from the third and fourth line.&lt;br /&gt;
+After all contents have been read, if you try to read further it will return an empty string, that is why there are two empty lines at the end of the output.&lt;/p&gt;
+
+&lt;h5 id=&#34;readline&#34;&gt;readline&lt;/h5&gt;
+
+&lt;p&gt;To get each line in a file use the &lt;strong&gt;readline&lt;/strong&gt; method which returns a list with each element being a line in the file.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-py&#34;&gt;file = open(&amp;quot;filename.txt&amp;quot;, &amp;quot;r&amp;quot;)
+print(file.readlines())
+file.close()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-txt&#34;&gt;[&#39;It was the best of times,\n&#39;, &#39;it was the worst of times,\n&#39;, &#39;it was the age of wisdom,\n&#39;, &#39;it was the age of foolishness,\n&#39;, &#39;it was the epoch of belief, it was the epoch of incredulity,\n&#39;, &#39;it was the season of Light, it was the season of Darkness\n&#39;, &#39;\n&#39;]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;A &lt;strong&gt;for&lt;/strong&gt; loop can be used to go through each line:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-py&#34;&gt;file = open(&amp;quot;filename.txt&amp;quot;, &amp;quot;r&amp;quot;)
+
+for line in file:
+    print(line, end=&amp;quot;&amp;quot;)
+
+file.close()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The &lt;code&gt;, end=&amp;quot;&amp;quot;&lt;/code&gt; within the print function is used so that there is no newline produced by python otherwise there would be &lt;code&gt;line1, blank line, line 2, blank line, etc.&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;writing-files&#34;&gt;Writing files&lt;/h3&gt;
+
+&lt;p&gt;The &lt;strong&gt;write&lt;/strong&gt; method is used to write a string to a file. The &lt;code&gt;w&lt;/code&gt; mode will create the file if it doesn&amp;rsquo;t already exist.&lt;/p&gt;
+
+&lt;div class=&#34;notices warning&#34; &gt;&lt;p&gt;This will overwrite whatever is on the file so make sure the file is blank.&lt;br /&gt;
+JUST opening it in write mode will overwrite it. Don&amp;rsquo;t even need to run the &lt;strong&gt;write&lt;/strong&gt; method.&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;h1 id=&#34;how&#34;&gt;How ?!?!&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-py&#34;&gt;file = open(&amp;quot;newfile.txt&amp;quot;, &amp;quot;w&amp;quot;)
+file.write(&amp;quot;This has been written to a file.&amp;quot;)
+file.close()
+
+file = open(&amp;quot;newfile.txt&amp;quot;, &amp;quot;r&amp;quot;)
+print(file.read())
+file.close()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This outputs &lt;code&gt;This has been written to a file.&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Now running:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-py&#34;&gt;file = open(&amp;quot;newfile.txt&amp;quot;, &amp;quot;r&amp;quot;)
+print(&amp;quot;Reading initial contents&amp;quot;)
+print(file.read())
+print(&amp;quot;Finished&amp;quot;)
+file.close()
+
+file = open(&amp;quot;newfile.txt&amp;quot;, &amp;quot;w&amp;quot;)
+file.write(&amp;quot;Some new text&amp;quot;)
+file.close()
+
+file = open(&amp;quot;newfile.txt&amp;quot;, &amp;quot;r&amp;quot;)
+print(&amp;quot;Reading new contents&amp;quot;)
+print(file.read())
+print(&amp;quot;Finished&amp;quot;)
+file.close()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Will produce:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-txt&#34;&gt;Reading initial contents
+This has been written to a file.
+Finished
+Reading new contents
+Some new text
+Finished
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The &lt;strong&gt;write&lt;/strong&gt; method returns the number of bytes written to the file, if successful.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-py&#34;&gt;msg = &amp;quot;Hello world!&amp;quot;
+file = open(&amp;quot;newfile.txt&amp;quot;, &amp;quot;w&amp;quot;)
+amount_written = file.write(msg)
+print(amount_written)
+file.close()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This will output &lt;code&gt;12&lt;/code&gt;. To get it to print the actual message you&amp;rsquo;d need to run this after closing it:&lt;/p&gt;
+
+&lt;h1 id=&#34;is-there-a-way-to-switch-modes-without-closing&#34;&gt;Is there a way to switch modes without closing ?&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-py&#34;&gt;file = open(&amp;quot;newfile.txt&amp;quot;, &amp;quot;r&amp;quot;)
+print(file.read())
+file.close()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;working-with-files&#34;&gt;Working with files&lt;/h3&gt;
+
+&lt;p&gt;To make sure that files are always closed after being used combine with &lt;strong&gt;try&lt;/strong&gt;/&lt;strong&gt;finally&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-py&#34;&gt;try:
+   f = open(&amp;quot;filename.txt&amp;quot;)
+   print(f.read())
+finally:
+   f.close()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;div class=&#34;notices info&#34; &gt;&lt;p&gt;This ensures that the file is always closed, even if an error occurs.&lt;br /&gt;
+Unless &lt;code&gt;FileNotFoundError&lt;/code&gt; occurs.&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;An alternative way of doing this is using &lt;strong&gt;with&lt;/strong&gt; statements. This creates a temporary variable (f), which is only accessible in the indented block of the with statement.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-py&#34;&gt;with open(&amp;quot;filename.txt&amp;quot;) as f:
+   print(f.read())
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The file is automatically closed at the end of the &lt;strong&gt;with&lt;/strong&gt; statement, even if exceptions occur within it.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>types</title>
+      <link>https://ao152867.github.io/on-my-mind/python/types/</link>
+      <pubDate>Wed, 01 Feb 2017 19:35:10 +0200</pubDate>
+      
+      <guid>https://ao152867.github.io/on-my-mind/python/types/</guid>
+      <description>
+
+&lt;h3 id=&#34;types&#34;&gt;Types&lt;/h3&gt;
+
+&lt;h5 id=&#34;none&#34;&gt;None&lt;/h5&gt;
+
+&lt;p&gt;&lt;strong&gt;None&lt;/strong&gt; is an object that represents the absence of a value (similar to &lt;strong&gt;null&lt;/strong&gt;).&lt;/p&gt;
+
+&lt;p&gt;It is like other &amp;ldquo;empty&amp;rdquo; values (0, [], an empty string), it is &lt;strong&gt;False&lt;/strong&gt; when converted to a &lt;strong&gt;Boolean&lt;/strong&gt; variable.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-py&#34;&gt;&amp;gt;&amp;gt;&amp;gt; None == None
+true
+&amp;gt;&amp;gt;&amp;gt; None
+&amp;gt;&amp;gt;&amp;gt; print(None)
+None
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The &lt;strong&gt;None&lt;/strong&gt; object is returned by functions that don&amp;rsquo;t return anything else.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-py&#34;&gt;def some_func():
+   print(&amp;quot;Hi!&amp;quot;)
+
+var = some_func()
+print(var)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Output:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-txt&#34;&gt;Hi!
+None
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h5 id=&#34;dictionaries&#34;&gt;Dictionaries&lt;/h5&gt;
+
+&lt;p&gt;&lt;strong&gt;Dictionaries&lt;/strong&gt; are data structures used to map arbitrary keys to values.&lt;br /&gt;
+Lists can be thought of as dictionaries with integer keys within a certain range.&lt;br /&gt;
+Dictionaries can be indexed the same way as lists, using &lt;strong&gt;square brackets&lt;/strong&gt; containing keys.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-py&#34;&gt;ages = {&amp;quot;Dave&amp;quot;: 24, &amp;quot;Mary&amp;quot;: 42, &amp;quot;John&amp;quot;: 58}
+print(ages[&amp;quot;Dave&amp;quot;])
+print(ages[&amp;quot;Mary&amp;quot;])
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-txt&#34;&gt;24
+42
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Each element in a dictionary is represented by a &lt;strong&gt;key:value&lt;/strong&gt; pair.&lt;/p&gt;
+
+&lt;p&gt;Trying to index a key that isn&amp;rsquo;t part of the dictionary returns a &lt;strong&gt;KeyError&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-py&#34;&gt;primary = {
+  &amp;quot;red&amp;quot;: [255, 0, 0],
+  &amp;quot;green&amp;quot;: [0, 255, 0],
+  &amp;quot;blue&amp;quot;: [0, 0, 255],
+}
+
+print(primary[&amp;quot;red&amp;quot;])
+print(primary[&amp;quot;yellow&amp;quot;])
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-txt&#34;&gt;[255, 0, 0]
+
+KeyError: &#39;yellow&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;An empty dictionary = {}&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-py&#34;&gt;empty = {}
+print(empty[0])
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-txt&#34;&gt;KeyError
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;Dictionaries&lt;/strong&gt; and &lt;strong&gt;list&lt;/strong&gt; can&amp;rsquo;t be used as keys because only &lt;strong&gt;immutable&lt;/strong&gt; objects (those that can&amp;rsquo;t change) may be used.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-py&#34;&gt;bad_dict = {
+  [1, 2, 3]: &amp;quot;one two three&amp;quot;,
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-txt&#34;&gt;TypeError: unhashable type: &#39;list&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;Dictionary&lt;/strong&gt; &lt;strong&gt;keys&lt;/strong&gt; can be changed not just their &lt;strong&gt;values&lt;/strong&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

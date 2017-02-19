@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Media on On My Mind</title>
+    <link>https://ao152867.github.io/on-my-mind/media/index.xml</link>
+    <description>Recent content in Media on On My Mind</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 29 Jan 2017 18:37:44 +0200</lastBuildDate>
+    <atom:link href="https://ao152867.github.io/on-my-mind/media/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>media</title>
+      <link>https://ao152867.github.io/on-my-mind/media/</link>
+      <pubDate>Sun, 29 Jan 2017 18:37:44 +0200</pubDate>
+      
+      <guid>https://ao152867.github.io/on-my-mind/media/</guid>
+      <description>
+
+&lt;h3 id=&#34;chapter-x&#34;&gt;Chapter X&lt;/h3&gt;
+
+&lt;h1 id=&#34;some-chapter-title&#34;&gt;Some Chapter title&lt;/h1&gt;
+
+&lt;p&gt;Lorem ipsum&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>audio</title>
+      <link>https://ao152867.github.io/on-my-mind/media/audio/</link>
+      <pubDate>Fri, 17 Feb 2017 15:56:22 +0200</pubDate>
+      
+      <guid>https://ao152867.github.io/on-my-mind/media/audio/</guid>
+      <description>
+
+&lt;h3 id=&#34;spotify&#34;&gt;Spotify&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://community.spotify.com/t5/Accounts-and-Subscriptions/How-to-switch-the-web-UI-language-to-English/td-p/275638&#34;&gt;Change web UI language to English&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>videos</title>
+      <link>https://ao152867.github.io/on-my-mind/media/videos/</link>
+      <pubDate>Fri, 17 Feb 2017 15:56:17 +0200</pubDate>
+      
+      <guid>https://ao152867.github.io/on-my-mind/media/videos/</guid>
+      <description>
+
+&lt;h3 id=&#34;subtitles&#34;&gt;Subtitles&lt;/h3&gt;
+
+&lt;p&gt;Play own subtitles over streaming video:&lt;br /&gt;
+&lt;a href=&#34;http://askubuntu.com/questions/437168/play-subtitle-on-online-streaming-movies&#34;&gt;http://askubuntu.com/questions/437168/play-subtitle-on-online-streaming-movies&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;https://ubuntuforums.org/showthread.php?t=1998675&#34;&gt;https://ubuntuforums.org/showthread.php?t=1998675&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;BBC guidelines for subtitles:&lt;br /&gt;
+&lt;a href=&#34;http://bbc.github.io/subtitle-guidelines/&#34;&gt;http://bbc.github.io/subtitle-guidelines/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Media file name fixes:&lt;br /&gt;
+Directory renaming:&lt;br /&gt;
+&lt;a href=&#34;https://www.filebot.net/forums/viewtopic.php?t=2833&#34;&gt;https://www.filebot.net/forums/viewtopic.php?t=2833&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Subtitles are wrong more and more as video plays ? Probably a different frame rate.&lt;br /&gt;
+Need to shift subtitles ?&lt;br /&gt;
+Expand/narrow the subtitles&lt;br /&gt;
+&lt;a href=&#34;http://subtitlefix.com/index.php&#34;&gt;http://subtitlefix.com/index.php&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Something:&lt;br /&gt;
+&lt;a href=&#34;http://www.htpcbeginner.com/sickbeard-vs-sickrage/&#34;&gt;http://www.htpcbeginner.com/sickbeard-vs-sickrage/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.reddit.com/r/kodi/comments/53qcpk/delete_subtitle_service/&#34;&gt;Delete Subtitle Service&lt;/a&gt; - Settings -&amp;gt; Addons -&amp;gt; My Addons -&amp;gt; Subtitles&lt;/p&gt;
+
+&lt;h3 id=&#34;plex&#34;&gt;Plex&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.plex.tv/downloads/&#34;&gt;https://www.plex.tv/downloads/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;filebot&#34;&gt;FileBot&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.filebot.net/&#34;&gt;http://www.filebot.net/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.filebot.net/naming.html&#34;&gt;Format Expressions&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.filebot.net/forums/viewtopic.php?f=8&amp;amp;t=85&amp;amp;sid=eac9de203b265b938baa5c38089ae1c2&amp;amp;start=25&#34;&gt;Rename Directories too&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;kodi&#34;&gt;Kodi&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://kodi.wiki/view/Naming_video_files/Movies&#34;&gt;Naming conventions&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;areena&#34;&gt;areena&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://areena.yle.fi/tv/a-o&#34;&gt;Areena A-Ö&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://areena.yle.fi/1-3051630&#34;&gt;Matematiikan taikaa&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://areena.yle.fi/1-3750146&#34;&gt;Rosan koodi&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.rosankoodi.fi/&#34;&gt;Rosan koodi - website&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;other&#34;&gt;Other&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/rg3/youtube-dl/releases&#34;&gt;youtube-dl&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://aajanki.github.io/yle-dl/&#34;&gt;yle-dl&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.homelinuxpc.com/download/&#34;&gt;Other Finnish stuff ?&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>games</title>
+      <link>https://ao152867.github.io/on-my-mind/media/games/</link>
+      <pubDate>Fri, 17 Feb 2017 15:56:10 +0200</pubDate>
+      
+      <guid>https://ao152867.github.io/on-my-mind/media/games/</guid>
+      <description>
+
+&lt;p&gt;XBox 360 battery pack tear down&lt;br /&gt;
+&lt;a href=&#34;http://www.instructables.com/id/Xbox-360-Rechargeable-Battery-Pack-Tear-down/&#34;&gt;http://www.instructables.com/id/Xbox-360-Rechargeable-Battery-Pack-Tear-down/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Triforce Heroes costumes&lt;br /&gt;
+&lt;a href=&#34;http://www.ign.com/wikis/the-legend-of-zelda-tri-force-heroes/Costumes&#34;&gt;http://www.ign.com/wikis/the-legend-of-zelda-tri-force-heroes/Costumes&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://segmentnext.com/2015/10/26/zelda-triforce-heroes-costumes-and-materials-locations-guide/&#34;&gt;http://segmentnext.com/2015/10/26/zelda-triforce-heroes-costumes-and-materials-locations-guide/&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://gameswiki.net/the-legend-of-zelda-triforce-heroes-how-to-get-all-materials-guide/&#34;&gt;http://gameswiki.net/the-legend-of-zelda-triforce-heroes-how-to-get-all-materials-guide/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;star-wars-galaxy-of-heroes&#34;&gt;Star Wars: Galaxy of Heroes&lt;/h3&gt;
+
+&lt;p&gt;Heroes timesheet Q1 2017: &lt;a href=&#34;https://www.reddit.com/r/SWGalaxyOfHeroes/comments/5ozp5y/updated_dates_for_upcoming_events/&#34;&gt;https://www.reddit.com/r/SWGalaxyOfHeroes/comments/5ozp5y/updated_dates_for_upcoming_events/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.swgohcantina.com/swgoh-shard-farming-locations/&#34;&gt;Shard farming locations&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;pokémon&#34;&gt;Pokémon&lt;/h3&gt;
+
+&lt;p&gt;Sun &amp;amp; Moon useful people and their locations&lt;br /&gt;
+&lt;a href=&#34;http://www.serebii.net/sunmoon/useful.shtml&#34;&gt;http://www.serebii.net/sunmoon/useful.shtml&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Naturaleza - Pokémon&lt;br /&gt;
+&lt;a href=&#34;http://es.pokemon.wikia.com/wiki/Naturaleza&#34;&gt;http://es.pokemon.wikia.com/wiki/Naturaleza&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;boardgames&#34;&gt;Boardgames&lt;/h3&gt;
+
+&lt;h4 id=&#34;eldritch&#34;&gt;Eldritch&lt;/h4&gt;
+
+&lt;p&gt;Multiple rumours at once (yes):&lt;br /&gt;
+&lt;a href=&#34;https://boardgamegeek.com/thread/1177093/quick-question-rumors&#34;&gt;https://boardgamegeek.com/thread/1177093/quick-question-rumors&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;General stuff&lt;br /&gt;
+&lt;a href=&#34;https://www.reddit.com/r/boardgames/comments/36w98j/is_my_game_group_playing_eldritch_horror_wrong/&#34;&gt;https://www.reddit.com/r/boardgames/comments/36w98j/is_my_game_group_playing_eldritch_horror_wrong/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Traveling questions&lt;br /&gt;
+&lt;a href=&#34;https://boardgamegeek.com/thread/1094339/traveling-ticket&#34;&gt;https://boardgamegeek.com/thread/1094339/traveling-ticket&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://eldritchhorrorgame.wikia.com/wiki/Travel&#34;&gt;http://eldritchhorrorgame.wikia.com/wiki/Travel&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;https://community.fantasyflightgames.com/topic/136150-travel-confusion/&#34;&gt;https://community.fantasyflightgames.com/topic/136150-travel-confusion/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;3ds-homebrew&#34;&gt;3DS homebrew&lt;/h3&gt;
+
+&lt;p&gt;3DS SDCard Backup Manager&lt;br /&gt;
+&lt;a href=&#34;https://gbatemp.net/threads/3ds-sdcard-backup-manager.363997/&#34;&gt;https://gbatemp.net/threads/3ds-sdcard-backup-manager.363997/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;3DS guide&lt;br /&gt;
+&lt;a href=&#34;https://3ds.guide/installing-arm9loaderhax.html&#34;&gt;https://3ds.guide/installing-arm9loaderhax.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;f3 sd checker&lt;br /&gt;
+&lt;a href=&#34;https://3ds.guide/f3-(linux&#34;&gt;https://3ds.guide/f3-(linux&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;freeshop (what is it ?): &lt;a href=&#34;https://gbatemp.net/threads/release-freeshop-open-source-eshop-alternative.426573/&#34;&gt;https://gbatemp.net/threads/release-freeshop-open-source-eshop-alternative.426573/&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;https://www.youtube.com/watch?v=_ZaIzjumVMs&#34;&gt;https://www.youtube.com/watch?v=_ZaIzjumVMs&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;https://freeshop.pw/&#34;&gt;https://freeshop.pw/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;hblauncher_loader v1.3:&lt;br /&gt;
+&lt;a href=&#34;https://github.com/yellows8/hblauncher_loader/releases&#34;&gt;https://github.com/yellows8/hblauncher_loader/releases&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>general</title>
+      <link>https://ao152867.github.io/on-my-mind/media/general/</link>
+      <pubDate>Sun, 29 Jan 2017 18:37:55 +0200</pubDate>
+      
+      <guid>https://ao152867.github.io/on-my-mind/media/general/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

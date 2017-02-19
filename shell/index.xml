@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shells on On My Mind</title>
+    <link>https://ao152867.github.io/on-my-mind/shell/index.xml</link>
+    <description>Recent content in Shells on On My Mind</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 18 Nov 2016 11:05:32 +0200</lastBuildDate>
+    <atom:link href="https://ao152867.github.io/on-my-mind/shell/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>shell</title>
+      <link>https://ao152867.github.io/on-my-mind/shell/</link>
+      <pubDate>Fri, 18 Nov 2016 11:05:32 +0200</pubDate>
+      
+      <guid>https://ao152867.github.io/on-my-mind/shell/</guid>
+      <description>
+
+&lt;h3 id=&#34;chapter-x&#34;&gt;Chapter X&lt;/h3&gt;
+
+&lt;h1 id=&#34;some-chapter-title&#34;&gt;Some Chapter title&lt;/h1&gt;
+
+&lt;p&gt;Lorem ipsum&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>/etc</title>
+      <link>https://ao152867.github.io/on-my-mind/shell/etc/</link>
+      <pubDate>Wed, 08 Feb 2017 13:28:55 +0200</pubDate>
+      
+      <guid>https://ao152867.github.io/on-my-mind/shell/etc/</guid>
+      <description>
+
+&lt;h3 id=&#34;fstab&#34;&gt;fstab&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://help.ubuntu.com/community/Fstab&#34;&gt;https://help.ubuntu.com/community/Fstab&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://wiki.archlinux.org/index.php/Fstab&#34;&gt;https://wiki.archlinux.org/index.php/Fstab&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>general</title>
+      <link>https://ao152867.github.io/on-my-mind/shell/general/</link>
+      <pubDate>Fri, 18 Nov 2016 11:11:34 +0200</pubDate>
+      
+      <guid>https://ao152867.github.io/on-my-mind/shell/general/</guid>
+      <description>
+
+&lt;h3 id=&#34;zsh&#34;&gt;zsh&lt;/h3&gt;
+
+&lt;h5 id=&#34;oh-my-zsh&#34;&gt;oh-my-zsh&lt;/h5&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.smashingmagazine.com/2015/07/become-command-line-power-user-oh-my-zsh-z/&#34;&gt;Become A Command-Line Power User with Oh-My-ZSH And Z&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://ohmyz.sh/&#34;&gt;homepage&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/robbyrussell/oh-my-zsh&#34;&gt;git&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/robbyrussell/oh-my-zsh/wiki/Themes&#34;&gt;themes&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://askubuntu.com/questions/131823/cant-make-zsh-the-default-shell&#34;&gt;make zsh default shell&lt;/a&gt; (Remember to login again to see changes)&lt;/p&gt;
+
+&lt;h5 id=&#34;environment-variables&#34;&gt;Environment variables&lt;/h5&gt;
+
+&lt;p&gt;Where to place them:&lt;br /&gt;
+&lt;a href=&#34;http://superuser.com/questions/709535/zsh-where-to-place-environment-variable-so-that-launched-application-can-pick-i&#34;&gt;http://superuser.com/questions/709535/zsh-where-to-place-environment-variable-so-that-launched-application-can-pick-i&lt;/a&gt;&lt;br /&gt;
+~/.zshenv&lt;/p&gt;
+
+&lt;p&gt;Although PATH goes in ~/.zshrc ?&lt;br /&gt;
+&lt;a href=&#34;http://stackoverflow.com/questions/10574684/where-to-place-path-variable-assertions-in-zsh&#34;&gt;http://stackoverflow.com/questions/10574684/where-to-place-path-variable-assertions-in-zsh&lt;/a&gt;&lt;/p&gt;
+
+&lt;h5 id=&#34;other&#34;&gt;other&lt;/h5&gt;
+
+&lt;p&gt;Z-Shell Line Editor(zle): &lt;a href=&#34;http://zsh.sourceforge.net/Guide/zshguide04.html&#34;&gt;http://zsh.sourceforge.net/Guide/zshguide04.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;jar&#34;&gt;.jar&lt;/h3&gt;
+
+&lt;p&gt;To run .jar files:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;java -jar jarFile.jar
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;finding-files&#34;&gt;finding files&lt;/h3&gt;
+
+&lt;h5 id=&#34;find-all-file-extensions-in-a-directory&#34;&gt;Find all file extensions in a directory&lt;/h5&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://stackoverflow.com/questions/4998290/how-to-find-all-file-extensions-in-directory&#34;&gt;http://stackoverflow.com/questions/4998290/how-to-find-all-file-extensions-in-directory&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;find . -type f | sed &#39;s|.*\.||&#39; | sort -u
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h5 id=&#34;find-the-total-size-of-certain-files-within-a-directory&#34;&gt;Find the total size of certain files within a directory&lt;/h5&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://unix.stackexchange.com/questions/41550/find-the-total-size-of-certain-files-within-a-directory-branch&#34;&gt;http://unix.stackexchange.com/questions/41550/find-the-total-size-of-certain-files-within-a-directory-branch&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;find ./photos/john_doe -type f -name &#39;*.jpg&#39; -size -25k -exec du -ch {} + | grep total$
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;powerline&#34;&gt;powerline&lt;/h3&gt;
+
+&lt;p&gt;Very comprehensive list of instructions on how to add powerline to just about every type of program:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://askubuntu.com/questions/283908/how-can-i-install-and-use-powerline-plugin&#34;&gt;http://askubuntu.com/questions/283908/how-can-i-install-and-use-powerline-plugin&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Fedora Magazine article on powerline for terminal: &lt;a href=&#34;https://fedoramagazine.org/add-power-terminal-powerline/&#34;&gt;https://fedoramagazine.org/add-power-terminal-powerline/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;vim&#34;&gt;vim&lt;/h3&gt;
+
+&lt;p&gt;vim-airline: &lt;a href=&#34;https://github.com/vim-airline/vim-airline&#34;&gt;https://github.com/vim-airline/vim-airline&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;installing-binary-files&#34;&gt;Installing binary files&lt;/h3&gt;
+
+&lt;h5 id=&#34;rpm&#34;&gt;.rpm&lt;/h5&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;sudo dnf install /path/to/bin.rpm
+
+## Or ?
+
+sudo rpm -Uhv /path/to/bin.rpm
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h5 id=&#34;deb&#34;&gt;.deb&lt;/h5&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;# If all dependencies are already installed or there are none.
+sudo dpkg -i /path/to/bin.deb
+
+# To solve dependencies install:
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Continue this with this: &lt;a href=&#34;http://unix.stackexchange.com/questions/159094/how-to-install-a-deb-file-by-dpkg-i-or-by-apt/159114&#34;&gt;http://unix.stackexchange.com/questions/159094/how-to-install-a-deb-file-by-dpkg-i-or-by-apt/159114&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;shortcuts&#34;&gt;Shortcuts&lt;/h3&gt;
+
+&lt;div class=&#34;notices warning&#34; &gt;&lt;p&gt;This is for &lt;code&gt;zsh&lt;/code&gt; if you do this in another shell like &lt;code&gt;bash&lt;/code&gt; then there are different shortcuts.&lt;br /&gt;
+e.g. &lt;code&gt;Ctrl + s&lt;/code&gt; freezes what is displayed on the terminal until you press &lt;code&gt;Ctrl + q&lt;/code&gt;. Which is bad because it just stops displaying what is going on any key presses will continue to work and when you unfreeze whatever you did will have happened.&lt;br /&gt;
+&lt;a href=&#34;http://unix.stackexchange.com/questions/12107/how-to-unfreeze-after-accidentally-pressing-ctrl-s-in-a-terminal&#34;&gt;http://unix.stackexchange.com/questions/12107/how-to-unfreeze-after-accidentally-pressing-ctrl-s-in-a-terminal&lt;/a&gt;&lt;br /&gt;
+&lt;code&gt;Ctrl + U&lt;/code&gt; in bash will clear the line before the cursor position but in ZSH it clears all of it. Both store it in the buffer later use. Like with &lt;code&gt;Ctrl + y&lt;/code&gt; will print out what was cut out.&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Shortcut&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Ctrl + a&lt;/td&gt;
+&lt;td&gt;Move cursor to beginning of line&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Ctrl + s&lt;/td&gt;
+&lt;td&gt;Forward search (good if you&amp;rsquo;ve gone too far in a reverse search)&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Ctrl + d&lt;/td&gt;
+&lt;td&gt;On an empty line: Exit&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Over text: same as Del key (deletes text under the cursor)&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Ctrl + g&lt;/td&gt;
+&lt;td&gt;Seems like it clears the line no matter where on the line you are. But it actually fails&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Ctrl + f&lt;/td&gt;
+&lt;td&gt;Same as the right arrow key&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Ctrl + b&lt;/td&gt;
+&lt;td&gt;Same as the left arrow key&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;If you press the Shift key then the same that would happen in other programs happens in the terminal, like:&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Shortcut&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Ctrl + Shift + a&lt;/td&gt;
+&lt;td&gt;Select all&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Real useful Ctrl +&lt;br /&gt;
+a, e, d, g, i, j/m, k, l, o, r, s, u,&lt;/p&gt;
+
+&lt;p&gt;n/p, w, x^o, x=, [^&amp;lt;, [^&amp;gt;,&lt;/p&gt;
+
+&lt;p&gt;why:&lt;br /&gt;
+@&lt;/p&gt;
+
+&lt;p&gt;unknown:&lt;br /&gt;
+q, x^v,&lt;/p&gt;
+
+&lt;p&gt;useless:&lt;br /&gt;
+b,f,h,t,x^u&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;
+Found the following from: http://www.geekmind.net/2011/01/shortcuts-to-improve-your-bash-zsh.html
+
+&amp;quot;^@&amp;quot; set-mark-command
+&amp;quot;^A&amp;quot; beginning-of-line
+&amp;quot;^B&amp;quot; backward-char
+&amp;quot;^D&amp;quot; delete-char-or-list
+&amp;quot;^E&amp;quot; end-of-line
+&amp;quot;^F&amp;quot; forward-char
+&amp;quot;^G&amp;quot; send-break
+&amp;quot;^H&amp;quot; backward-delete-char
+&amp;quot;^I&amp;quot; expand-or-complete
+&amp;quot;^J&amp;quot; accept-line
+&amp;quot;^K&amp;quot; kill-line
+&amp;quot;^L&amp;quot; clear-screen
+&amp;quot;^M&amp;quot; accept-line
+&amp;quot;^N&amp;quot; down-line-or-history
+&amp;quot;^O&amp;quot; accept-line-and-down-history
+&amp;quot;^P&amp;quot; up-line-or-history
+&amp;quot;^Q&amp;quot; push-line
+&amp;quot;^R&amp;quot; history-incremental-search-backward
+&amp;quot;^S&amp;quot; history-incremental-search-forward
+&amp;quot;^T&amp;quot; transpose-chars
+&amp;quot;^U&amp;quot; kill-whole-line
+&amp;quot;^V&amp;quot; quoted-insert
+&amp;quot;^W&amp;quot; backward-kill-word
+&amp;quot;^X^B&amp;quot; vi-match-bracket
+&amp;quot;^X^F&amp;quot; vi-find-next-char
+&amp;quot;^X^J&amp;quot; vi-join
+&amp;quot;^X^K&amp;quot; kill-buffer
+&amp;quot;^X^N&amp;quot; infer-next-history
+&amp;quot;^X^O&amp;quot; overwrite-mode
+&amp;quot;^X^U&amp;quot; undo
+&amp;quot;^X^V&amp;quot; vi-cmd-mode
+&amp;quot;^X^X&amp;quot; exchange-point-and-mark
+&amp;quot;^X*&amp;quot; expand-word
+&amp;quot;^X=&amp;quot; what-cursor-position
+&amp;quot;^XG&amp;quot; list-expand
+&amp;quot;^Xg&amp;quot; list-expand
+&amp;quot;^Xr&amp;quot; history-incremental-search-backward
+&amp;quot;^Xs&amp;quot; history-incremental-search-forward
+&amp;quot;^Xu&amp;quot; undo
+&amp;quot;^Y&amp;quot; yank
+&amp;quot;^[^D&amp;quot; list-choices
+&amp;quot;^[^G&amp;quot; send-break
+&amp;quot;^[^H&amp;quot; backward-kill-word
+&amp;quot;^[^I&amp;quot; self-insert-unmeta
+&amp;quot;^[^J&amp;quot; self-insert-unmeta
+&amp;quot;^[^L&amp;quot; clear-screen
+&amp;quot;^[^M&amp;quot; self-insert-unmeta
+&amp;quot;^[^_&amp;quot; copy-prev-word
+&amp;quot;^[ &amp;quot; expand-history
+&amp;quot;^[!&amp;quot; expand-history
+&amp;quot;^[\&amp;quot;&amp;quot; quote-region
+&amp;quot;^[\$&amp;quot; spell-word
+&amp;quot;^[&#39;&amp;quot; quote-line
+&amp;quot;^[-&amp;quot; neg-argument
+&amp;quot;^[.&amp;quot; insert-last-word
+&amp;quot;^[0&amp;quot; digit-argument
+&amp;quot;^[1&amp;quot; digit-argument
+&amp;quot;^[2&amp;quot; digit-argument
+&amp;quot;^[3&amp;quot; digit-argument
+&amp;quot;^[4&amp;quot; digit-argument
+&amp;quot;^[5&amp;quot; digit-argument
+&amp;quot;^[6&amp;quot; digit-argument
+&amp;quot;^[7&amp;quot; digit-argument
+&amp;quot;^[8&amp;quot; digit-argument
+&amp;quot;^[9&amp;quot; digit-argument
+&amp;quot;^[&amp;lt;&amp;quot; beginning-of-buffer-or-history
+&amp;quot;^[&amp;gt;&amp;quot; end-of-buffer-or-history
+&amp;quot;^[?&amp;quot; which-command
+&amp;quot;^[A&amp;quot; accept-and-hold
+&amp;quot;^[B&amp;quot; backward-word
+&amp;quot;^[C&amp;quot; capitalize-word
+&amp;quot;^[D&amp;quot; kill-word
+&amp;quot;^[F&amp;quot; forward-word
+&amp;quot;^[G&amp;quot; get-line
+&amp;quot;^[H&amp;quot; run-help
+&amp;quot;^[L&amp;quot; down-case-word
+&amp;quot;^[N&amp;quot; history-search-forward
+&amp;quot;^[OA&amp;quot; up-line-or-history
+&amp;quot;^[OB&amp;quot; down-line-or-history
+&amp;quot;^[OC&amp;quot; forward-char
+&amp;quot;^[OD&amp;quot; backward-char
+&amp;quot;^[P&amp;quot; history-search-backward
+&amp;quot;^[Q&amp;quot; push-line
+&amp;quot;^[S&amp;quot; spell-word
+&amp;quot;^[T&amp;quot; transpose-words
+&amp;quot;^[U&amp;quot; up-case-word
+&amp;quot;^[W&amp;quot; copy-region-as-kill
+&amp;quot;^[[200~&amp;quot; bracketed-paste
+&amp;quot;^[[A&amp;quot; up-line-or-history
+&amp;quot;^[[B&amp;quot; down-line-or-history
+&amp;quot;^[[C&amp;quot; forward-char
+&amp;quot;^[[D&amp;quot; backward-char
+&amp;quot;^[_&amp;quot; insert-last-word
+&amp;quot;^[a&amp;quot; accept-and-hold
+&amp;quot;^[b&amp;quot; backward-word
+&amp;quot;^[c&amp;quot; capitalize-word
+&amp;quot;^[d&amp;quot; kill-word
+&amp;quot;^[f&amp;quot; forward-word
+&amp;quot;^[g&amp;quot; get-line
+&amp;quot;^[h&amp;quot; run-help
+&amp;quot;^[l&amp;quot; down-case-word
+&amp;quot;^[n&amp;quot; history-search-forward
+&amp;quot;^[p&amp;quot; history-search-backward
+&amp;quot;^[q&amp;quot; push-line
+&amp;quot;^[s&amp;quot; spell-word
+&amp;quot;^[t&amp;quot; transpose-words
+&amp;quot;^[u&amp;quot; up-case-word
+&amp;quot;^[w&amp;quot; copy-region-as-kill
+&amp;quot;^[x&amp;quot; execute-named-cmd
+&amp;quot;^[y&amp;quot; yank-pop
+&amp;quot;^[z&amp;quot; execute-last-named-cmd
+&amp;quot;^[|&amp;quot; vi-goto-column
+&amp;quot;^[^?&amp;quot; backward-kill-word
+&amp;quot;^_&amp;quot; undo
+&amp;quot; &amp;quot;-&amp;quot;~&amp;quot; self-insert
+&amp;quot;^?&amp;quot; backward-delete-char
+&amp;quot;\M-^@&amp;quot;-&amp;quot;\M-^?&amp;quot; self-insert
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Mac with explanations:&lt;br /&gt;
+&lt;a href=&#34;https://ss64.com/osx/syntax-bashkeyboard.html&#34;&gt;https://ss64.com/osx/syntax-bashkeyboard.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;zsh vi mode!:&lt;br /&gt;
+&lt;a href=&#34;https://dougblack.io/words/zsh-vi-mode.html&#34;&gt;https://dougblack.io/words/zsh-vi-mode.html&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>git</title>
+      <link>https://ao152867.github.io/on-my-mind/shell/git/</link>
+      <pubDate>Fri, 17 Feb 2017 08:01:44 +0200</pubDate>
+      
+      <guid>https://ao152867.github.io/on-my-mind/shell/git/</guid>
+      <description>
+
+&lt;h3 id=&#34;git&#34;&gt;git&lt;/h3&gt;
+
+&lt;h5 id=&#34;tutorials&#34;&gt;tutorials&lt;/h5&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.atlassian.com/git/tutorials/undoing-changes&#34;&gt;https://www.atlassian.com/git/tutorials/undoing-changes&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://byte.kde.org/~zrusin/git/&#34;&gt;git cheat sheet&lt;/a&gt; available in three sizes and an svg.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/git-cheat-sheet-large.png&#34; alt=&#34;git cheat sheet&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://guides.github.com/introduction/flow/?utm_source=onboarding-series&amp;amp;utm_medium=email&amp;amp;utm_content=read-the-guide-cta&amp;amp;utm_campaign=learn-github-flow-email&#34;&gt;GitHub Flow&lt;/a&gt;&lt;/p&gt;
+
+&lt;h5 id=&#34;global-gitignore&#34;&gt;global .gitignore&lt;/h5&gt;
+
+&lt;p&gt;Might be good to place a &lt;code&gt;.gitignore&lt;/code&gt; file in the ~ directory.&lt;/p&gt;
+
+&lt;p&gt;Fill it with something like what is found on the Mac setup guide or &lt;a href=&#34;https://gist.github.com/ianheggie/9327010&#34;&gt;https://gist.github.com/ianheggie/9327010&lt;/a&gt; or even a combination of the two. Once the file is in place run this command:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;git config --global core.excludesfile ~/.gitignore
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h5 id=&#34;show-git-username-email-address&#34;&gt;show git username/email address:&lt;/h5&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://alvinalexander.com/git/git-show-change-username-email-address&#34;&gt;http://alvinalexander.com/git/git-show-change-username-email-address&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;There are several ways but I prefer for it to just show it all at once:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;git config --list
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;get-new-branches-to-download&#34;&gt;Get new branches to download&lt;/h4&gt;
+
+&lt;p&gt;I&amp;rsquo;ve added a second branch and now I&amp;rsquo;m trying to figure out how to download it and be able to switch to it:&lt;br /&gt;
+&lt;a href=&#34;http://stackoverflow.com/questions/2294313/how-to-download-a-branch-with-git&#34;&gt;http://stackoverflow.com/questions/2294313/how-to-download-a-branch-with-git&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Seems to be as easy as &lt;code&gt;git pull&lt;/code&gt; which should pull all updates to the current branch and the new branches.&lt;/p&gt;
+
+&lt;p&gt;The to switch to the new branch &lt;code&gt;git checkout newBranch&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h6 id=&#34;other&#34;&gt;other&lt;/h6&gt;
+
+&lt;p&gt;Check git&amp;rsquo;s commit history: &lt;a href=&#34;https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History&#34;&gt;https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;git log
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Get the name of current branch:&lt;/p&gt;
+
+&lt;div class=&#34;notices note&#34; &gt;&lt;p&gt;My zsh config shows the branch by default.&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;&lt;a href=&#34;http://stackoverflow.com/questions/6245570/how-to-get-the-current-branch-name-in-git&#34;&gt;http://stackoverflow.com/questions/6245570/how-to-get-the-current-branch-name-in-git&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;gitlab protected branches: &lt;a href=&#34;https://docs.gitlab.com/ce/user/project/protected_branches.html&#34;&gt;https://docs.gitlab.com/ce/user/project/protected_branches.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;git push -u origin master&lt;/code&gt; only gets done the first time afterwards just &lt;code&gt;git push&lt;/code&gt; ?&lt;br /&gt;
+&lt;a href=&#34;http://stackoverflow.com/questions/5697750/what-exactly-does-the-u-do-git-push-u-origin-master-vs-git-push-origin-ma&#34;&gt;http://stackoverflow.com/questions/5697750/what-exactly-does-the-u-do-git-push-u-origin-master-vs-git-push-origin-ma&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;script-to-push&#34;&gt;script to push&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;#!/bin/bash
+
+## Script to push changes to tips at night ##
+
+## On first run create a dialog that asks where the directory is located
+# read dirLocation
+## Creating a file in the user&#39;s home directory
+## The filename shall be dir to push to: .dirToPushTo.txt
+# variable = repoDir = .dirToPushTo.txt
+## First check if file exists
+# if [ -e $HOME/$repoDir]; then
+##  come up with something clever to change the name ? Maybe use a variable in
+##  the dir&#39;s name and add a number to it till it is good ?
+## If it doesn&#39;t exist then write the directory path to the file
+# echo $dirLocation &amp;gt;&amp;gt; $HOME/$repoDir
+
+
+
+
+
+
+# Go to the tips directory
+cd /path/to/repo
+# Check the status of the repo
+git status
+# Index changes
+git add .
+# Check status of repos again should reflex the indexing
+git status
+# commit changes to repo
+echo &amp;quot;Enter the commit message:&amp;quot;
+read commitMsg
+git commit -m &amp;quot;$commitMsg&amp;quot;
+# Push changes to git
+git push
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;work-in-progress&#34;&gt;Work in Progress&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;#!/bin/bash
+
+## Script to push changes to tips at night ##
+
+## On first run create a dialog that asks where the directory is located
+# read dirLocation
+## Creating a file in the user&#39;s home directory
+## The filename shall be dir to push to: .dirToPushTo.txt
+# variable = repoDir = .dirToPushTo.txt
+## First check if file exists
+# if [ -e $repoDir]; then
+##  come up with something clever to change the name ? Maybe use a variable in
+##  the dir&#39;s name and add a number to it till it is good ?
+## If it doesn&#39;t exist then write the directory path to the file
+# echo $dirLocation &amp;gt;&amp;gt; $repoDir
+
+repoDir=&amp;quot;$HOME/.repoDir.txt&amp;quot;
+
+# projectLocation=&amp;quot;&amp;quot;
+#
+# if [ read -r == &amp;quot;&amp;quot; ]; then
+#   echo &amp;quot;Enter in the location to where your project is located:&amp;quot;
+#   read projectLocation
+
+
+
+if [ -e &amp;quot;$repoDir&amp;quot; ]; then
+  echo &amp;quot;Directory &#39;$repoDir&#39; exists. Trying to read repo location.&amp;quot;
+else
+  echo &amp;quot;Creating &#39;$repoDir&#39;&amp;quot;
+  touch &amp;quot;$repoDir&amp;quot;
+fi
+
+if [ -s &amp;quot;$repoDir&amp;quot; ]; then
+  echo &amp;quot;File isn&#39;t empty&amp;quot;
+  echo &amp;quot;Displaying file content&amp;quot;
+  echo
+  cat &amp;quot;$HOME/$repDir&amp;quot;
+fi
+
+# Takes the first line of $repoDir and puts it as the value for projectLocation
+read -r projectLocation &amp;lt; &amp;quot;$repoDir&amp;quot;
+
+if [ -d projectLocation ]; then
+  echo &amp;quot;&amp;quot;
+else
+  echo &amp;quot;No project(s) found&amp;quot;
+  read projectLocation &amp;quot;Enter in the location of your project:&amp;quot;
+fi
+
+
+
+while true; do
+  echo -n &amp;quot;Is &amp;quot;, projectLocation, &amp;quot;the correct destination to your project ? [y/n]: &amp;quot;
+  read confirmProjectDirectory
+
+  if [ confirmProjectDirectory == &#39;n&#39; ]; then
+
+  fi
+
+done
+#
+# # Go to the tips directory
+# cd /path/to/repo
+# # Check the status of the repo
+# git status
+# # Index changes
+# git add .
+# # Check status of repos again should reflex the indexing
+# git status
+# # commit changes to repo
+# echo &amp;quot;Enter the commit message:&amp;quot;
+# read commitMsg
+# git commit -m &amp;quot;$commitMsg&amp;quot;
+# # Push changes to git
+# git push
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Check if a file isn&amp;rsquo;t empty: &lt;a href=&#34;http://stackoverflow.com/questions/9964823/how-to-check-if-a-file-is-empty-in-bash-shell&#34;&gt;http://stackoverflow.com/questions/9964823/how-to-check-if-a-file-is-empty-in-bash-shell&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;print file content on the terminal: &lt;a href=&#34;http://unix.stackexchange.com/questions/86321/how-can-i-display-the-contents-of-a-text-file-on-the-command-line&#34;&gt;http://unix.stackexchange.com/questions/86321/how-can-i-display-the-contents-of-a-text-file-on-the-command-line&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;user input: &lt;a href=&#34;http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_08_02.html&#34;&gt;http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_08_02.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Get the first line of a file: &lt;a href=&#34;http://stackoverflow.com/questions/2439579/how-to-get-the-first-line-of-a-file-in-a-bash-script&#34;&gt;http://stackoverflow.com/questions/2439579/how-to-get-the-first-line-of-a-file-in-a-bash-script&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;more read stuff: &lt;a href=&#34;http://stackoverflow.com/questions/7676045/how-to-use-the-read-command-in-bash&#34;&gt;http://stackoverflow.com/questions/7676045/how-to-use-the-read-command-in-bash&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;read file line by line:&lt;br /&gt;
+&lt;a href=&#34;https://www.cyberciti.biz/faq/unix-howto-read-line-by-line-from-file/&#34;&gt;https://www.cyberciti.biz/faq/unix-howto-read-line-by-line-from-file/&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://stackoverflow.com/questions/10929453/read-a-file-line-by-line-assigning-the-value-to-a-variable&#34;&gt;http://stackoverflow.com/questions/10929453/read-a-file-line-by-line-assigning-the-value-to-a-variable&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;git project vs repo: &lt;a href=&#34;http://stackoverflow.com/questions/5043306/git-project-vs-repository-whats-the-fundamental-difference&#34;&gt;http://stackoverflow.com/questions/5043306/git-project-vs-repository-whats-the-fundamental-difference&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>tmux</title>
+      <link>https://ao152867.github.io/on-my-mind/shell/tmux/</link>
+      <pubDate>Wed, 08 Feb 2017 12:53:20 +0200</pubDate>
+      
+      <guid>https://ao152867.github.io/on-my-mind/shell/tmux/</guid>
+      <description>
+
+&lt;h2 id=&#34;setup&#34;&gt;Setup&lt;/h2&gt;
+
+&lt;h4 id=&#34;bash&#34;&gt;bash&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://unix.stackexchange.com/questions/1288/preserve-bash-history-in-multiple-terminal-windows&#34;&gt;http://unix.stackexchange.com/questions/1288/preserve-bash-history-in-multiple-terminal-windows&lt;/a&gt;&lt;br /&gt;
+Explanation on ignoreboth: &lt;a href=&#34;http://unix.stackexchange.com/questions/115917/why-is-bash-not-storing-commands-that-start-with-spaces&#34;&gt;http://unix.stackexchange.com/questions/115917/why-is-bash-not-storing-commands-that-start-with-spaces&lt;/a&gt;&lt;br /&gt;
+Can do &lt;code&gt;man bash&lt;/code&gt; and search for &lt;code&gt;/HISTCONTROL&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Append &lt;code&gt;export PROMPT_COMMAND=&amp;quot;history -a; $PROMPT_COMMAND&amp;quot;&lt;/code&gt; to .bashrc and tmux will save history in order of tmux window followed by whatever is entered into the shell after exiting tmux.&lt;/p&gt;
+
+&lt;p&gt;Make sure that these are in &lt;code&gt;.bashrc&lt;/code&gt; (I prefer &lt;code&gt;ignoreboth&lt;/code&gt; over &lt;code&gt;ignoredups&lt;/code&gt;):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;# Avoid duplicates and don&#39;t save commands that start with a ` `(space)
+export HISTCONTROL=ignoreboth:erasedups  
+# When the shell exits, append to the history file instead of overwriting it
+shopt -s histappend
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Add each command as soon as command is executed(not as much fun..):&lt;br /&gt;
+&lt;a href=&#34;http://askubuntu.com/questions/339546/how-do-i-see-the-history-of-the-commands-i-have-run-in-tmux&#34;&gt;http://askubuntu.com/questions/339546/how-do-i-see-the-history-of-the-commands-i-have-run-in-tmux&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;# avoid duplicates..
+export HISTCONTROL=ignoredups:erasedups
+
+# append history entries..
+shopt -s histappend
+
+# After each command, save and reload history
+export PROMPT_COMMAND=&amp;quot;history -a; history -c; history -r; $PROMPT_COMMAND&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;zsh&#34;&gt;zsh&lt;/h4&gt;
+
+&lt;p&gt;Already works that way so no need to make changes.&lt;/p&gt;
+
+&lt;h2 id=&#34;other&#34;&gt;other&lt;/h2&gt;
+
+&lt;p&gt;To resize a pane &lt;code&gt;ctrl + b&lt;/code&gt; then &lt;code&gt;ctrl + arrow&lt;/code&gt;&lt;br /&gt;
+&lt;a href=&#34;http://stackoverflow.com/questions/16145078/in-tmux-can-i-resize-a-pane-to-an-absolute-value&#34;&gt;http://stackoverflow.com/questions/16145078/in-tmux-can-i-resize-a-pane-to-an-absolute-value&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Start a terminal with tmux: &lt;a href=&#34;http://stackoverflow.com/questions/11068965/how-can-i-make-tmux-be-active-whenever-i-start-a-new-shell-session&#34;&gt;http://stackoverflow.com/questions/11068965/how-can-i-make-tmux-be-active-whenever-i-start-a-new-shell-session&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

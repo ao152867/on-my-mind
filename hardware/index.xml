@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hardwares on On My Mind</title>
+    <link>https://ao152867.github.io/on-my-mind/hardware/index.xml</link>
+    <description>Recent content in Hardwares on On My Mind</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 04 Feb 2017 17:59:01 +0200</lastBuildDate>
+    <atom:link href="https://ao152867.github.io/on-my-mind/hardware/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>hardware</title>
+      <link>https://ao152867.github.io/on-my-mind/hardware/</link>
+      <pubDate>Sat, 04 Feb 2017 17:59:01 +0200</pubDate>
+      
+      <guid>https://ao152867.github.io/on-my-mind/hardware/</guid>
+      <description>
+
+&lt;h3 id=&#34;chapter-x&#34;&gt;Chapter X&lt;/h3&gt;
+
+&lt;h1 id=&#34;some-chapter-title&#34;&gt;Some Chapter title&lt;/h1&gt;
+
+&lt;p&gt;Lorem ipsum&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>general</title>
+      <link>https://ao152867.github.io/on-my-mind/hardware/general/</link>
+      <pubDate>Sat, 04 Feb 2017 17:59:09 +0200</pubDate>
+      
+      <guid>https://ao152867.github.io/on-my-mind/hardware/general/</guid>
+      <description>
+
+&lt;h3 id=&#34;hdd&#34;&gt;HDD&lt;/h3&gt;
+
+&lt;p&gt;WD Red VS WD Red Pro&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://nascompares.com/2016/05/10/should-you-buy-wd-red-pro-drives-or-ordinary-wd-red-nas-drives/&#34;&gt;http://nascompares.com/2016/05/10/should-you-buy-wd-red-pro-drives-or-ordinary-wd-red-nas-drives/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.tweaktown.com/articles/6550/wd-red-and-red-pro-hdd-nas-performance-analysis-in-raid-5-with-10gbe/index.html&#34;&gt;http://www.tweaktown.com/articles/6550/wd-red-and-red-pro-hdd-nas-performance-analysis-in-raid-5-with-10gbe/index.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.google.fi/search?client=ubuntu&amp;amp;hs=GB8&amp;amp;q=wd+red+pro+vs+red+nas&amp;amp;oq=wd+red+pro+vs+red+nas&amp;amp;gs_l=serp.3..0j0i22i30k1l2.1967.5365.0.5671.11.9.0.2.2.0.120.637.6j2.8.0....0...1c.1.64.serp..1.10.636.yZDCzlLvzKg&#34;&gt;https://www.google.fi/search?client=ubuntu&amp;amp;hs=GB8&amp;amp;q=wd+red+pro+vs+red+nas&amp;amp;oq=wd+red+pro+vs+red+nas&amp;amp;gs_l=serp.3..0j0i22i30k1l2.1967.5365.0.5671.11.9.0.2.2.0.120.637.6j2.8.0....0...1c.1.64.serp..1.10.636.yZDCzlLvzKg&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;hackintosh-vs-nas-box&#34;&gt;Hackintosh vs NAS box&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.tonymacx86.com/threads/hackintosh-osx-server-nas.132793/&#34;&gt;https://www.tonymacx86.com/threads/hackintosh-osx-server-nas.132793/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.reddit.com/r/homelab/comments/1qd5tf/nas_box_cpuram_requirements/?st=iw7l0jx5&amp;amp;sh=3180f562&#34;&gt;https://www.reddit.com/r/homelab/comments/1qd5tf/nas_box_cpuram_requirements/?st=iw7l0jx5&amp;amp;sh=3180f562&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://uk.pcmag.com/network-attached-storage-nas-reviews/14710/guide/the-best-nas-network-attached-storage-devices-of-2016&#34;&gt;http://uk.pcmag.com/network-attached-storage-nas-reviews/14710/guide/the-best-nas-network-attached-storage-devices-of-2016&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;syncthing&#34;&gt;Syncthing&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://syncthing.net/&#34;&gt;https://syncthing.net/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://sturmflut.github.io/linux/2015/02/22/switching-from-owncloud-to-syncthing/&#34;&gt;https://sturmflut.github.io/linux/2015/02/22/switching-from-owncloud-to-syncthing/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;arkos&#34;&gt;arkOS&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://arkos.io/what-is-arkos/&#34;&gt;https://arkos.io/what-is-arkos/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;memory-testing&#34;&gt;Memory testing&lt;/h4&gt;
+
+&lt;p&gt;Discussion on using the Windows Memory Diagnostic:&lt;br /&gt;
+&lt;a href=&#34;https://www.reddit.com/r/pcmasterrace/comments/2w2yh2/windowss_memory_diagnostic_lies_properly_test/&#34;&gt;https://www.reddit.com/r/pcmasterrace/comments/2w2yh2/windowss_memory_diagnostic_lies_properly_test/&lt;/a&gt;&lt;br /&gt;
+Topics of interest were:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.memtest.org/&#34;&gt;Memtest86+ homepage&lt;/a&gt;. And recommendation to download straight from there rather than use on a Linux distro.&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;WMD or Memtest86+ letting RAM pass/fail. Guess that means run both.&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;If memory at the beginning is corrupt then WMD might not be able to detect it ?&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Memtest86 vs Memtest86+&lt;br /&gt;
+&lt;a href=&#34;https://www.reddit.com/r/techsupport/comments/3ant3p/memtest86_does_not_appear_to_be_actively/&#34;&gt;https://www.reddit.com/r/techsupport/comments/3ant3p/memtest86_does_not_appear_to_be_actively/&lt;/a&gt;&lt;br /&gt;
+You find a post by one of the developers (of Memtest86) talking about how they&amp;rsquo;ve kept it up-to-date and it is pointed out that + has been dead for years now.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.memtest86.com/&#34;&gt;Memtest86&lt;/a&gt; has a &lt;a href=&#34;http://www.memtest86.com/features.htm&#34;&gt;comparison page&lt;/a&gt; where to use it on older (pre UEFI) systems you need to use v4 not the newer versions. But according to the &lt;a href=&#34;http://www.memtest86.com/download.htm&#34;&gt;download page&lt;/a&gt; the newer versions support dual booting that allows booting into v4. However, if it is so desired v4 is still available to download on its own.&lt;/p&gt;
+
+&lt;p&gt;Length of RAM testing:&lt;br /&gt;
+&lt;a href=&#34;https://www.reddit.com/r/techsupport/comments/1rpmcd/how_long_does_memtest86_usually_take/&#34;&gt;https://www.reddit.com/r/techsupport/comments/1rpmcd/how_long_does_memtest86_usually_take/&lt;/a&gt;&lt;br /&gt;
+Some run it overnight good enough for me.&lt;/p&gt;
+
+&lt;h3 id=&#34;drilling&#34;&gt;Drilling&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.ehow.com/how_6353716_do-drill-bit-after-use_.html&#34;&gt;http://www.ehow.com/how_6353716_do-drill-bit-after-use_.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Take a break every 5-10 minutes of use to clean.&lt;/p&gt;
+
+&lt;p&gt;Dry cloth to wipe away the debris (base to tip).&lt;/p&gt;
+
+&lt;p&gt;After finishing a job:&lt;/p&gt;
+
+&lt;p&gt;Clean with the dry towel (cloth) (base to tip) then wrap it around the bit and slowly rotate it for a few seconds.&lt;/p&gt;
+
+&lt;p&gt;Use a dry (tooth)brush to scrub off whatever doesn&amp;rsquo;t want to come off (easier if on the drill or held somehow in place).&lt;/p&gt;
+
+&lt;p&gt;A bit of machine oil after cleaning.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=rUMTJ9GZIC8&#34;&gt;https://www.youtube.com/watch?v=rUMTJ9GZIC8&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Soft materials and small bits drill at high speeds.&lt;/p&gt;
+
+&lt;p&gt;Hard materials and large bits drill at low speeds.&lt;br /&gt;
+Sparks or blue bits means that you have been drilling too fast.&lt;/p&gt;
+
+&lt;p&gt;Drill sharpening gauge.&lt;br /&gt;
+~98% of all drill bits are sharpened at 59 degrees. 118 degrees from one side to the other.&lt;/p&gt;
+
+&lt;p&gt;Land - Little strip at the edges of a drill bit.&lt;br /&gt;
+the whole body doesn&amp;rsquo;t touch the wall of what you&amp;rsquo;re drilling only the edge does. If the whole thing was then there would be a lot of friction that would cause excessive heat.&lt;/p&gt;
+
+&lt;p&gt;Body clearance - the rest of the body that doesn&amp;rsquo;t touch the walls ?&lt;/p&gt;
+
+&lt;p&gt;Flute - the &amp;ldquo;holes&amp;rdquo; on the drill bit. They allow the crud from what you&amp;rsquo;re drilling to come on out.&lt;/p&gt;
+
+&lt;p&gt;10 - 12 degree clearance on the lip. Both lips should be sharpened to equal length. When drilling if only one chip is coming out or one has more than the other then they aren&amp;rsquo;t equal pay attention that those curly chips come out even.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=cqn2VPGYA9c&#34;&gt;https://www.youtube.com/watch?v=cqn2VPGYA9c&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Chisel point the part at the tip.&lt;br /&gt;
+In big bits you need to drill a pilot hole that is equal to or more than the thickness of the chisel point. Because the chisel point does very little cutting and is just trying to force its way into the metal.&lt;/p&gt;
+
+&lt;p&gt;Smaller than &lt;sup&gt;3&lt;/sup&gt;&amp;frasl;&lt;sub&gt;16&lt;/sub&gt;&amp;rdquo; throw away.&lt;/p&gt;
+
+&lt;p&gt;Abrasive belt sander with 59 degree markers to fix em. 80 grit. Water to keep em cool. Practice on bigger bits first.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

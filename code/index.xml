@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Codes on On My Mind</title>
+    <link>https://ao152867.github.io/on-my-mind/code/index.xml</link>
+    <description>Recent content in Codes on On My Mind</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 18 Nov 2016 12:34:58 +0200</lastBuildDate>
+    <atom:link href="https://ao152867.github.io/on-my-mind/code/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>code</title>
+      <link>https://ao152867.github.io/on-my-mind/code/</link>
+      <pubDate>Fri, 18 Nov 2016 12:34:58 +0200</pubDate>
+      
+      <guid>https://ao152867.github.io/on-my-mind/code/</guid>
+      <description>
+
+&lt;h3 id=&#34;chapter-x&#34;&gt;Chapter X&lt;/h3&gt;
+
+&lt;h1 id=&#34;some-chapter-title&#34;&gt;Some Chapter title&lt;/h1&gt;
+
+&lt;p&gt;Lorem ipsum&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://ao152867.github.io/on-my-mind/code/py/</link>
+      <pubDate>Fri, 18 Nov 2016 12:35:04 +0200</pubDate>
+      
+      <guid>https://ao152867.github.io/on-my-mind/code/py/</guid>
+      <description>
+
+&lt;h1 id=&#34;delete-me&#34;&gt;Delete me&lt;/h1&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

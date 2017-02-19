@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pis on On My Mind</title>
+    <link>https://ao152867.github.io/on-my-mind/pi/index.xml</link>
+    <description>Recent content in Pis on On My Mind</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 18 Nov 2016 12:19:34 +0200</lastBuildDate>
+    <atom:link href="https://ao152867.github.io/on-my-mind/pi/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>pi</title>
+      <link>https://ao152867.github.io/on-my-mind/pi/</link>
+      <pubDate>Fri, 18 Nov 2016 12:19:34 +0200</pubDate>
+      
+      <guid>https://ao152867.github.io/on-my-mind/pi/</guid>
+      <description>
+
+&lt;h3 id=&#34;chapter-x&#34;&gt;Chapter X&lt;/h3&gt;
+
+&lt;h1 id=&#34;some-chapter-title&#34;&gt;Some Chapter title&lt;/h1&gt;
+
+&lt;p&gt;Lorem ipsum&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Scripts</title>
+      <link>https://ao152867.github.io/on-my-mind/pi/scripts/</link>
+      <pubDate>Sun, 12 Feb 2017 22:17:56 +0200</pubDate>
+      
+      <guid>https://ao152867.github.io/on-my-mind/pi/scripts/</guid>
+      <description>
+
+&lt;h3 id=&#34;update-script&#34;&gt;Update script&lt;/h3&gt;
+
+&lt;p&gt;Really small SD card keeps running out of space. Small script to run when updating so I don&amp;rsquo;t have to have to do less work until stuff hits the fan.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;#!/bin/bash
+
+## Update script ##
+
+freeSpace=$(df / | grep -i / | awk &#39;{print $4}&#39;)
+counter=0
+cleaner=&amp;quot;autoclean&amp;quot;
+
+# Check if the user is root
+if [ $(id -u) -ne 0 ]; then
+  echo &amp;quot;Login as root to run this script.&amp;quot;
+  exit 1
+fi
+
+while true; do
+  # Check how many times this script has been run
+  if [ $counter -eq 1 ]; then
+    # change cleaner to clean to be more agressive
+    cleaner=&amp;quot;clean&amp;quot;
+  # After two tries exit script
+  elif [ $counter -eq 2 ]; then
+    echo &amp;quot;Still insufficient space. Please check what is taking up so much space.&amp;quot;
+    exit 1
+  fi
+
+  # Check if there is enough space to perform an update.
+  # Guestimating this at a bit under 100M
+  if [ $freeSpace -gt 100000 ]; then
+    echo &amp;quot;Updating...&amp;quot;
+    apt-get update
+    apt-get -y upgrade
+    echo &amp;quot;clearing out some cache&amp;quot;
+    apt-get autoclean
+    echo -n &amp;quot;remaining disk space is: &amp;quot;
+    echo -n $(df / | grep -i / | awk &#39;{print $4}&#39;)
+    echo &amp;quot; bytes.&amp;quot;
+    exit
+  else
+    echo &amp;quot;Insufficient space&amp;quot;
+    echo &amp;quot;Running &#39;apt-get $cleaner&#39; to try to clear out some space.&amp;quot;
+    echo &amp;quot;apt-get $cleaner&amp;quot;
+    let &amp;quot;counter += 1&amp;quot;
+  fi
+done
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;To check if there is enough space: &lt;a href=&#34;http://serverfault.com/questions/288270/check-if-drive-has-enough-space-before-writing&#34;&gt;http://serverfault.com/questions/288270/check-if-drive-has-enough-space-before-writing&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Create variables: &lt;a href=&#34;http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-5.html&#34;&gt;http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-5.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;if statement example: &lt;a href=&#34;http://www.tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-6.html&#34;&gt;http://www.tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-6.html&lt;/a&gt;&lt;br /&gt;
+elif reminder: &lt;a href=&#34;http://www.thegeekstuff.com/2010/06/bash-if-statement-examples/&#34;&gt;http://www.thegeekstuff.com/2010/06/bash-if-statement-examples/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[ ARG1 OP ARG2 ]; OP is -eq, -ne, -lt, -le, -gt or -ge: &lt;a href=&#34;http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_07_01.html&#34;&gt;http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_07_01.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;while loop: &lt;a href=&#34;https://linux.die.net/Bash-Beginners-Guide/sect_09_02.html&#34;&gt;https://linux.die.net/Bash-Beginners-Guide/sect_09_02.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;plus-equal: &lt;a href=&#34;http://tldp.org/LDP/abs/html/ops.html&#34;&gt;http://tldp.org/LDP/abs/html/ops.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;exit with error code (not really taken advantage of): &lt;a href=&#34;http://stackoverflow.com/questions/1378274/in-a-bash-script-how-can-i-exit-the-entire-script-if-a-certain-condition-occurs&#34;&gt;http://stackoverflow.com/questions/1378274/in-a-bash-script-how-can-i-exit-the-entire-script-if-a-certain-condition-occurs&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Not used in script:&lt;/p&gt;
+
+&lt;p&gt;for loop: &lt;a href=&#34;https://www.cyberciti.biz/faq/bash-for-loop/&#34;&gt;https://www.cyberciti.biz/faq/bash-for-loop/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;functions: &lt;a href=&#34;http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-8.html&#34;&gt;http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-8.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;concatenation: &lt;a href=&#34;http://stackoverflow.com/questions/4181703/how-to-concatenate-string-variables-in-bash&#34;&gt;http://stackoverflow.com/questions/4181703/how-to-concatenate-string-variables-in-bash&lt;/a&gt;&lt;/p&gt;
+
+&lt;h5 id=&#34;need-to-look-into&#34;&gt;Need to look into&lt;/h5&gt;
+
+&lt;p&gt;People seem to be saying clean/autoclean do different things for them.&lt;br /&gt;
+&lt;a href=&#34;http://askubuntu.com/questions/65549/var-cache-apt-archives-occupying-huge-space&#34;&gt;http://askubuntu.com/questions/65549/var-cache-apt-archives-occupying-huge-space&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>general</title>
+      <link>https://ao152867.github.io/on-my-mind/pi/general/</link>
+      <pubDate>Mon, 12 Dec 2016 17:56:01 +0200</pubDate>
+      
+      <guid>https://ao152867.github.io/on-my-mind/pi/general/</guid>
+      <description>
+
+&lt;p&gt;Lorem Ipsum&lt;/p&gt;
+
+&lt;h4 id=&#34;nfs&#34;&gt;NFS&lt;/h4&gt;
+
+&lt;div class=&#34;notices warning&#34; &gt;&lt;p&gt;There is a bug with Debian Jessie that complicates things with NFS just restart rpcbind and nfs-kernel-server after booting up.&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;NFS links: &lt;a href=&#34;https://help.ubuntu.com/community/SettingUpNFSHowTo&#34;&gt;Ubuntu&lt;/a&gt; - including TL;DR link, &lt;a href=&#34;https://www.youtube.com/watch?v=RMW1Zi8MSas&#34;&gt;Pi video&lt;/a&gt;, &lt;a href=&#34;https://wiki.archlinux.org/index.php/NFS#Starting_the_server&#34;&gt;Arch&lt;/a&gt;, &lt;a href=&#34;http://www.cyberciti.biz/faq/how-to-ubuntu-nfs-server-configuration-howto/&#34;&gt;nixCraft&lt;/a&gt;, &lt;a href=&#34;https://www.raspberrypi.org/forums/viewtopic.php?t=14500&#34;&gt;Pi forums&lt;/a&gt;, &lt;a href=&#34;http://www.cyberciti.biz/faq/apple-mac-osx-nfs-mount-command-tutorial/&#34;&gt;mac mount&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Get the NFS server package:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sudo apt-get install nfs-kernel-server rpcbind
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;div class=&#34;notices note&#34; &gt;&lt;p&gt;Not sure if rpcbind is required.&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;Append via &lt;code&gt;sudo vim /etc/exports&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;/path/to/share        *(rw,sync,no_root_squash,no_subtree_check)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;div class=&#34;notices info&#34; &gt;&lt;p&gt;If you don&amp;rsquo;t want to give everyone access replace * as per: &lt;a href=&#34;https://help.ubuntu.com/community/SettingUpNFSHowTo#Installation_and_Configuration&#34;&gt;https://help.ubuntu.com/community/SettingUpNFSHowTo#Installation_and_Configuration&lt;/a&gt;&lt;br /&gt;
+e.g. Local network = 192.168.1.0/24&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&#34;notices warning&#34; &gt;&lt;p&gt;Not sure what the steps are after this. Here is just what I did afterwards till it worked. Figure this out later.&lt;br /&gt;
+The steps should be exportfs -rav, hosts files, start rpcbind then nfs-kernel-server.&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;&lt;code&gt;sudo update-rc.d rpcbind enable&lt;/code&gt; This installs System-V init script for rpcbind.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sudo service rpcbind start&lt;/code&gt; starts rpcbind but should probably run this at a later time.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sudo exportfs&lt;/code&gt; updates the exports file based on the &lt;code&gt;/etc/exports&lt;/code&gt; file (do this later as well).&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sudo vim /etc/hosts.deny&lt;/code&gt; append &lt;code&gt;rpcbind: ALL&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sudo vim /etc/hosts.allow&lt;/code&gt; append &lt;code&gt;rpcbind: 192.168.1.0/24&lt;/code&gt; or whatever network/IP address.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sudo exportfs -rav&lt;/code&gt; I think now is the right time to run this.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sudo service rpcbind restart&lt;/code&gt; or start if it wasn&amp;rsquo;t started before.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sudo service nfs-kernel-server start&lt;/code&gt; this nfs-kernel-server wasn&amp;rsquo;t available before but now it is wonder what caused it to become available. Maybe it was and could just have been done straight away.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sudo update-rc.d nfs-kernel-server enable&lt;/code&gt; so that upon reboot it will start up on its own.&lt;/p&gt;
+
+&lt;p&gt;Now open up a terminal on your computer and type:&lt;/p&gt;
+
+&lt;div class=&#34;notices tip&#34; &gt;&lt;p&gt;Run &lt;code&gt;showmount -e pi-ip-addr&lt;/code&gt; first to see if the server is up with output similar to this:&lt;br /&gt;
+Export list for pi-ip-addr:&lt;br /&gt;
+/path/to/share 192.168.1.0/24&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sudo mount -t nfs pi-ip-addr:/path/to/share /mount/point
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If you get &lt;code&gt;Operation not permitted&lt;/code&gt; (Macs) add the &lt;code&gt;-o resvport&lt;/code&gt; option: &lt;a href=&#34;http://www.cyberciti.biz/faq/apple-mac-osx-nfs-mount-command-tutorial/&#34;&gt;http://www.cyberciti.biz/faq/apple-mac-osx-nfs-mount-command-tutorial/&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sudo mount -t nfs -o resvport,rw 192.168.3.1:/path/to/share /private/nfs
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;PATH should be editable in ~/.profile&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>code</title>
+      <link>https://ao152867.github.io/on-my-mind/pi/code/</link>
+      <pubDate>Fri, 18 Nov 2016 12:24:20 +0200</pubDate>
+      
+      <guid>https://ao152867.github.io/on-my-mind/pi/code/</guid>
+      <description>&lt;p&gt;Python script starting at startup:&lt;br /&gt;
+&lt;a href=&#34;http://raspberrypi.stackexchange.com/questions/45358/start-python-script-at-startup-using-systemd-in-rpi-jessie&#34;&gt;http://raspberrypi.stackexchange.com/questions/45358/start-python-script-at-startup-using-systemd-in-rpi-jessie&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>hw</title>
+      <link>https://ao152867.github.io/on-my-mind/pi/hw/</link>
+      <pubDate>Fri, 18 Nov 2016 12:19:45 +0200</pubDate>
+      
+      <guid>https://ao152867.github.io/on-my-mind/pi/hw/</guid>
+      <description>&lt;p&gt;Claim that Pi doesn&amp;rsquo;t need a heatsink unless doing anything not intended by the foundation. What like turning it on ? Pi3 running the GUI with two - three tabs on the browser hit 80+C.&lt;br /&gt;
+&lt;a href=&#34;https://www.raspberrypi.org/forums/viewtopic.php?f=63&amp;amp;t=13080&#34;&gt;https://www.raspberrypi.org/forums/viewtopic.php?f=63&amp;amp;t=13080&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Low profile heatsink. Might be good for when using a HAT that is attached directly to the Pi.&lt;br /&gt;
+&lt;a href=&#34;https://thepihut.com/products/raspberry-pi-heatsink&#34;&gt;https://thepihut.com/products/raspberry-pi-heatsink&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
