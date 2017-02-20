@@ -103,6 +103,10 @@ Group:&lt;br /&gt;
 
 &lt;p&gt;&lt;code&gt;cmd + option + a&lt;/code&gt; - Get informed when a long-running command completes.&lt;/p&gt;
 
+&lt;p&gt;To create panes (tmux ?) press:&lt;br /&gt;
+&lt;code&gt;cmd + d&lt;/code&gt; for vertical | split&lt;br /&gt;
+&lt;code&gt;Shift + cmd + d&lt;/code&gt; for horizontal - split&lt;/p&gt;
+
 &lt;h1 id=&#34;need-to-read-what-this-does-and-how-to-do-it&#34;&gt;Need to read what this does and how to do it&amp;hellip;&lt;/h1&gt;
 
 &lt;p&gt;With Shell Integration installed, you can select the output of the last command with shift cmd a&lt;br /&gt;

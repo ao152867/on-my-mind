@@ -6,8 +6,18 @@
     <description>Recent content on On My Mind</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Feb 2017 18:11:01 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 20 Feb 2017 21:50:11 +0200</lastBuildDate>
     <atom:link href="https://ao152867.github.io/on-my-mind/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>index</title>
+      <link>https://ao152867.github.io/on-my-mind/windoze/server2016-install/</link>
+      <pubDate>Mon, 20 Feb 2017 21:50:11 +0200</pubDate>
+      
+      <guid>https://ao152867.github.io/on-my-mind/windoze/server2016-install/</guid>
+      <description>&lt;p&gt;Lorem Ipsum&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>general</title>
@@ -84,7 +94,9 @@ Expand/narrow the subtitles&lt;br /&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://kodi.wiki/view/Naming_video_files/Movies&#34;&gt;Naming conventions&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;areena&#34;&gt;areena&lt;/h3&gt;
+&lt;h3 id=&#34;what-to-watch&#34;&gt;What to watch&lt;/h3&gt;
+
+&lt;h4 id=&#34;areena&#34;&gt;areena&lt;/h4&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://areena.yle.fi/tv/a-o&#34;&gt;Areena A-Ö&lt;/a&gt;&lt;/p&gt;
 
@@ -93,6 +105,10 @@ Expand/narrow the subtitles&lt;br /&gt;
 &lt;p&gt;&lt;a href=&#34;http://areena.yle.fi/1-3750146&#34;&gt;Rosan koodi&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://www.rosankoodi.fi/&#34;&gt;Rosan koodi - website&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;tech&#34;&gt;tech&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.tekthing.com/&#34;&gt;tekthing&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;other&#34;&gt;Other&lt;/h3&gt;
 
@@ -676,6 +692,10 @@ In big bits you need to drill a pilot hole that is equal to or more than the thi
 &lt;p&gt;Smaller than &lt;sup&gt;3&lt;/sup&gt;&amp;frasl;&lt;sub&gt;16&lt;/sub&gt;&amp;rdquo; throw away.&lt;/p&gt;
 
 &lt;p&gt;Abrasive belt sander with 59 degree markers to fix em. 80 grit. Water to keep em cool. Practice on bigger bits first.&lt;/p&gt;
+
+&lt;p&gt;What drill bit to use for plastic ? &lt;a href=&#34;http://home.howstuffworks.com/type-of-drill-bit-plastic.htm&#34;&gt;dowel bit&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;All you could want to know about drill bits: &lt;a href=&#34;http://www.diydata.com/tool/drillbits/drillbits.php&#34;&gt;http://www.diydata.com/tool/drillbits/drillbits.php&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -691,6 +711,12 @@ In big bits you need to drill a pilot hole that is equal to or more than the thi
 
 &lt;p&gt;If &lt;code&gt;node -v&lt;/code&gt; and &lt;code&gt;nodejs -v&lt;/code&gt; return different versions then might have some other &lt;code&gt;node&lt;/code&gt; bin installed:&lt;br /&gt;
 &lt;a href=&#34;http://stackoverflow.com/questions/14888471/node-js-version-on-the-command-line-not-the-repl&#34;&gt;http://stackoverflow.com/questions/14888471/node-js-version-on-the-command-line-not-the-repl&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;tinkercad&#34;&gt;TinkerCAD&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://blog.tinkercad.com/keyboard-shortcuts/&#34;&gt;Keyboard shortcuts&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://teambudmen.com/tinkercad.html&#34;&gt;Reference Material and tutorial&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -726,40 +752,6 @@ tar xvf /path/to/hugo-VERSION-NUMBER-OS-ARCHITECTURE-.tar.gz
 
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;sudo cp /path/to/hugo-file /usr/local/bin/hugo
 &lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>vagrant</title>
-      <link>https://ao152867.github.io/on-my-mind/software/vagrant/</link>
-      <pubDate>Thu, 02 Feb 2017 18:18:33 +0200</pubDate>
-      
-      <guid>https://ao152867.github.io/on-my-mind/software/vagrant/</guid>
-      <description>
-
-&lt;h3 id=&#34;vagrant&#34;&gt;Vagrant&lt;/h3&gt;
-
-&lt;p&gt;Delete a box from the VAGRANT_HOME: &lt;code&gt;vagrant box remove NAME&lt;/code&gt;&lt;br /&gt;
-&lt;a href=&#34;https://laracasts.com/discuss/channels/general-discussion/delete-vagrant-box?page=1&#34;&gt;https://laracasts.com/discuss/channels/general-discussion/delete-vagrant-box?page=1&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;https://docs.vagrantup.com/v2/cli/box.html&#34;&gt;https://docs.vagrantup.com/v2/cli/box.html&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;SSH key error: Generate the key &lt;code&gt;ssh-keygen -t rsa -C &amp;quot;name@email.com&amp;quot;&lt;/code&gt;&lt;br /&gt;
-&lt;a href=&#34;https://laravel.io/forum/06-04-2014-problem-launching-vagrant-on-homestead&#34;&gt;https://laravel.io/forum/06-04-2014-problem-launching-vagrant-on-homestead&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Move the vagrant folder out of ~ &lt;code&gt;export VAGRANT_HOME=/new/path/for/vagrant&lt;/code&gt;:&lt;br /&gt;
-&lt;a href=&#34;http://stackoverflow.com/questions/14733681/vagrant-d-outside-of-the-home-folder&#34;&gt;http://stackoverflow.com/questions/14733681/vagrant-d-outside-of-the-home-folder&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;ve put the &lt;code&gt;VAGRANT_HOME&lt;/code&gt; in &lt;code&gt;~/.zshrc&lt;/code&gt; but I think it actually belongs in &lt;code&gt;~/.zshenv&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Another guide explaining changing the home and VirtualBox&amp;rsquo;s VM directory: &lt;a href=&#34;https://emptysqua.re/blog/moving-virtualbox-and-vagrant-to-an-external-drive/&#34;&gt;https://emptysqua.re/blog/moving-virtualbox-and-vagrant-to-an-external-drive/&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;other&#34;&gt;Other&lt;/h3&gt;
-
-&lt;p&gt;Fedora&amp;rsquo;s Vagrant page: &lt;a href=&#34;https://developer.fedoraproject.org/tools/vagrant/about.html&#34;&gt;https://developer.fedoraproject.org/tools/vagrant/about.html&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;List of Vagrant Environment Variables: &lt;a href=&#34;https://www.vagrantup.com/docs/other/environmental-variables.html&#34;&gt;https://www.vagrantup.com/docs/other/environmental-variables.html&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Vagrant from Fedora repo: &lt;a href=&#34;https://fedoramagazine.org/running-vagrant-fedora-22/&#34;&gt;https://fedoramagazine.org/running-vagrant-fedora-22/&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

@@ -121,8 +121,6 @@ elif reminder: &lt;a href=&#34;http://www.thegeekstuff.com/2010/06/bash-if-state
       <guid>https://ao152867.github.io/on-my-mind/pi/general/</guid>
       <description>
 
-&lt;p&gt;Lorem Ipsum&lt;/p&gt;
-
 &lt;h4 id=&#34;nfs&#34;&gt;NFS&lt;/h4&gt;
 
 &lt;div class=&#34;notices warning&#34; &gt;&lt;p&gt;There is a bug with Debian Jessie that complicates things with NFS just restart rpcbind and nfs-kernel-server after booting up.&lt;/p&gt;
@@ -190,6 +188,10 @@ Export list for pi-ip-addr:&lt;br /&gt;
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;PATH should be editable in ~/.profile&lt;/p&gt;
+
+&lt;h3 id=&#34;other&#34;&gt;Other&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://dietpi.com/&#34;&gt;DietPi&lt;/a&gt; - very lightweight distro&lt;/p&gt;
 </description>
     </item>
     

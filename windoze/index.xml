@@ -26,6 +26,16 @@
     </item>
     
     <item>
+      <title>index</title>
+      <link>https://ao152867.github.io/on-my-mind/windoze/server2016-install/</link>
+      <pubDate>Mon, 20 Feb 2017 21:50:11 +0200</pubDate>
+      
+      <guid>https://ao152867.github.io/on-my-mind/windoze/server2016-install/</guid>
+      <description>&lt;p&gt;Lorem Ipsum&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>General</title>
       <link>https://ao152867.github.io/on-my-mind/windoze/general/</link>
       <pubDate>Fri, 10 Feb 2017 11:45:59 +0200</pubDate>
@@ -300,7 +310,113 @@ Dism /Unmount‐WIM /MountDir:X:\win7\offline /Commit
       <pubDate>Tue, 14 Feb 2017 18:04:53 +0200</pubDate>
       
       <guid>https://ao152867.github.io/on-my-mind/windoze/win7-installation/</guid>
-      <description>&lt;p&gt;Lorem Ipsum&lt;/p&gt;
+      <description>
+
+&lt;h3 id=&#34;creating-the-virtual-machine&#34;&gt;Creating the Virtual Machine&lt;/h3&gt;
+
+&lt;p&gt;With the &lt;a href=&#34;https://ao152867.github.io/on-my-mind/windoze/win7-iso-update&#34;&gt;Windows 7 iso update&lt;/a&gt; at hand proceed to open up &lt;a href=&#34;https://ao152867.github.io/on-my-mind/software/virtualbox&#34;&gt;VirtualBox&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Click on the New button.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/new.png&#34; alt=&#34;New button&#34; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;name-and-operating-system&#34;&gt;Name and operating system&lt;/h4&gt;
+
+&lt;p&gt;Fill in the Name and make sure &lt;code&gt;Type: Microsoft Windows&lt;/code&gt; and &lt;code&gt;Version: Windows 7 (64-bit)&lt;/code&gt; are selected.&lt;/p&gt;
+
+&lt;h4 id=&#34;memory-size&#34;&gt;Memory size&lt;/h4&gt;
+
+&lt;p&gt;Give it a good amount of RAM around 2GiB should suffice. If more or less are needed this can later be changed.&lt;/p&gt;
+
+&lt;h4 id=&#34;hard-disk&#34;&gt;Hard disk&lt;/h4&gt;
+
+&lt;p&gt;Select &lt;code&gt;Create a virtual hard disk now&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/create-virtual-machine.png&#34; alt=&#34;Create Virtual Machine&#34; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;file-location&#34;&gt;File location&lt;/h4&gt;
+
+&lt;p&gt;If the default location is good enough (in your $HOME directory) then leave it as is. If you would rather have it elsewhere press the icon on the right (with the red border in the picture below). Although it might be better to &lt;a href=&#34;https://ao152867.github.io/on-my-mind/software/virtualbox/#change-vm-location&#34;&gt;just change the location&lt;/a&gt; of all the &lt;code&gt;VirtualBox VM&lt;/code&gt; files.&lt;/p&gt;
+
+&lt;h4 id=&#34;file-size&#34;&gt;File size&lt;/h4&gt;
+
+&lt;p&gt;25GB is good enough, if more will be needed adjust accordingly.&lt;/p&gt;
+
+&lt;h4 id=&#34;hard-disk-file-type&#34;&gt;Hard disk file type&lt;/h4&gt;
+
+&lt;p&gt;VDI (VirtualBox Disk Image)&lt;/p&gt;
+
+&lt;h4 id=&#34;storage-on-physical-hard-disk&#34;&gt;Storage on physical hard disk&lt;/h4&gt;
+
+&lt;p&gt;&lt;code&gt;Dynamically allocated&lt;/code&gt; is preferred because it will only take up as much space as is used and not just the free space and the performance hit should be minimal.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/create-virtual-hard-disk.png&#34; alt=&#34;Create Virtual Hard Disk&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;settings&#34;&gt;Settings&lt;/h3&gt;
+
+&lt;p&gt;Click the &lt;code&gt;Settings&lt;/code&gt; button whilst the VM is highlighted in the list of VMs.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/win7-highlighted.png&#34; alt=&#34;Windows 7 with other VMs&#34; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;system&#34;&gt;System&lt;/h4&gt;
+
+&lt;h5 id=&#34;motherboard&#34;&gt;Motherboard&lt;/h5&gt;
+
+&lt;p&gt;Here you can change the RAM if you need.&lt;/p&gt;
+
+&lt;h5 id=&#34;processor&#34;&gt;Processor&lt;/h5&gt;
+
+&lt;p&gt;If you have more than one CPU core you can add CPUs to the max number of cores(not threads) which will help with performance so do so.&lt;/p&gt;
+
+&lt;h3 id=&#34;image-selection&#34;&gt;Image selection&lt;/h3&gt;
+
+&lt;p&gt;With the VM settings configured it&amp;rsquo;s time to start it up.&lt;/p&gt;
+
+&lt;p&gt;Click the &lt;code&gt;Start&lt;/code&gt; button or double click on the VM.&lt;/p&gt;
+
+&lt;h4 id=&#34;select-start-up-disk&#34;&gt;Select start-up disk&lt;/h4&gt;
+
+&lt;p&gt;You&amp;rsquo;re presented with this window that by default will point to your optical drive if you have one. Click on the button to the right and then browse to the location of the Windows 7 image file.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/select-start-up-disk.png&#34; alt=&#34;Select start-up disk&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;installation&#34;&gt;Installation&lt;/h3&gt;
+
+&lt;p&gt;The installation will start up automatically.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/install-language-selection.png&#34; alt=&#34;Install language selection&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/install-custom.png&#34; alt=&#34;Custom install&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Once it is done installing it&amp;rsquo;ll reboot let it and don&amp;rsquo;t press any keys.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/install-username.png&#34; alt=&#34;Username&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/install-password.png&#34; alt=&#34;Password&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/install-product-key.png&#34; alt=&#34;Product Key&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/install-security-n-updates.png&#34; alt=&#34;Security and Updates&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/install-time-n-date.png&#34; alt=&#34;Time and Date&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/install-network-location.png&#34; alt=&#34;Network location&#34; /&gt;&lt;/p&gt;
+
+&lt;h5 id=&#34;updates&#34;&gt;Updates&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/updates-from-waik.png&#34; alt=&#34;Updates from WAIK&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;cloning&#34;&gt;Cloning&lt;/h3&gt;
+
+&lt;p&gt;Change the highlighted part to &lt;code&gt;2&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/clone-change-name.png&#34; alt=&#34;Change name&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If the two machines will be interacting with each other then reinitialize the MAC address.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/clone-reinitialize-mac-address.png&#34; alt=&#34;Reinitialize MAC address&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/clone-full-clone.png&#34; alt=&#34;Full Clone&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     

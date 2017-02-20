@@ -563,6 +563,14 @@
           
           
           
+            <li class="dd-item " data-nav-id="/on-my-mind/windoze/server2016-install/">
+              <a href="/on-my-mind/windoze/server2016-install/">
+                <span>index     </i></span>
+              </a>
+            </li>
+          
+          
+          
             <li class="dd-item " data-nav-id="/on-my-mind/windoze/general/">
               <a href="/on-my-mind/windoze/general/">
                 <span>General     </i></span>
@@ -827,7 +835,46 @@
               
                   <div class="progress">
     <div class="wrapper">
-
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#creating-the-virtual-machine">Creating the Virtual Machine</a>
+<ul>
+<li><a href="#name-and-operating-system">Name and operating system</a></li>
+<li><a href="#memory-size">Memory size</a></li>
+<li><a href="#hard-disk">Hard disk</a></li>
+<li><a href="#file-location">File location</a></li>
+<li><a href="#file-size">File size</a></li>
+<li><a href="#hard-disk-file-type">Hard disk file type</a></li>
+<li><a href="#storage-on-physical-hard-disk">Storage on physical hard disk</a></li>
+</ul></li>
+<li><a href="#settings">Settings</a>
+<ul>
+<li><a href="#system">System</a>
+<ul>
+<li><a href="#motherboard">Motherboard</a></li>
+<li><a href="#processor">Processor</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#image-selection">Image selection</a>
+<ul>
+<li><a href="#select-start-up-disk">Select start-up disk</a></li>
+</ul></li>
+<li><a href="#installation">Installation</a>
+<ul>
+<li>
+<ul>
+<li><a href="#updates">Updates</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#cloning">Cloning</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
     </div>
 </div>
 
@@ -840,7 +887,113 @@
                 <h1>Windows 7 Installation</h1>
                 
 
-<p>Lorem Ipsum</p>
+
+
+<h3 id="creating-the-virtual-machine">Creating the Virtual Machine</h3>
+
+<p>With the <a href="/windoze/win7-iso-update">Windows 7 iso update</a> at hand proceed to open up <a href="/software/virtualbox">VirtualBox</a>.</p>
+
+<p>Click on the New button.</p>
+
+<p><img src="images/new.png" alt="New button" /></p>
+
+<h4 id="name-and-operating-system">Name and operating system</h4>
+
+<p>Fill in the Name and make sure <code>Type: Microsoft Windows</code> and <code>Version: Windows 7 (64-bit)</code> are selected.</p>
+
+<h4 id="memory-size">Memory size</h4>
+
+<p>Give it a good amount of RAM around 2GiB should suffice. If more or less are needed this can later be changed.</p>
+
+<h4 id="hard-disk">Hard disk</h4>
+
+<p>Select <code>Create a virtual hard disk now</code></p>
+
+<p><img src="images/create-virtual-machine.png" alt="Create Virtual Machine" /></p>
+
+<h4 id="file-location">File location</h4>
+
+<p>If the default location is good enough (in your $HOME directory) then leave it as is. If you would rather have it elsewhere press the icon on the right (with the red border in the picture below). Although it might be better to <a href="/software/virtualbox/#change-vm-location">just change the location</a> of all the <code>VirtualBox VM</code> files.</p>
+
+<h4 id="file-size">File size</h4>
+
+<p>25GB is good enough, if more will be needed adjust accordingly.</p>
+
+<h4 id="hard-disk-file-type">Hard disk file type</h4>
+
+<p>VDI (VirtualBox Disk Image)</p>
+
+<h4 id="storage-on-physical-hard-disk">Storage on physical hard disk</h4>
+
+<p><code>Dynamically allocated</code> is preferred because it will only take up as much space as is used and not just the free space and the performance hit should be minimal.</p>
+
+<p><img src="images/create-virtual-hard-disk.png" alt="Create Virtual Hard Disk" /></p>
+
+<h3 id="settings">Settings</h3>
+
+<p>Click the <code>Settings</code> button whilst the VM is highlighted in the list of VMs.</p>
+
+<p><img src="images/win7-highlighted.png" alt="Windows 7 with other VMs" /></p>
+
+<h4 id="system">System</h4>
+
+<h5 id="motherboard">Motherboard</h5>
+
+<p>Here you can change the RAM if you need.</p>
+
+<h5 id="processor">Processor</h5>
+
+<p>If you have more than one CPU core you can add CPUs to the max number of cores(not threads) which will help with performance so do so.</p>
+
+<h3 id="image-selection">Image selection</h3>
+
+<p>With the VM settings configured it&rsquo;s time to start it up.</p>
+
+<p>Click the <code>Start</code> button or double click on the VM.</p>
+
+<h4 id="select-start-up-disk">Select start-up disk</h4>
+
+<p>You&rsquo;re presented with this window that by default will point to your optical drive if you have one. Click on the button to the right and then browse to the location of the Windows 7 image file.</p>
+
+<p><img src="images/select-start-up-disk.png" alt="Select start-up disk" /></p>
+
+<h3 id="installation">Installation</h3>
+
+<p>The installation will start up automatically.</p>
+
+<p><img src="images/install-language-selection.png" alt="Install language selection" /></p>
+
+<p><img src="images/install-custom.png" alt="Custom install" /></p>
+
+<p>Once it is done installing it&rsquo;ll reboot let it and don&rsquo;t press any keys.</p>
+
+<p><img src="images/install-username.png" alt="Username" /></p>
+
+<p><img src="images/install-password.png" alt="Password" /></p>
+
+<p><img src="images/install-product-key.png" alt="Product Key" /></p>
+
+<p><img src="images/install-security-n-updates.png" alt="Security and Updates" /></p>
+
+<p><img src="images/install-time-n-date.png" alt="Time and Date" /></p>
+
+<p><img src="images/install-network-location.png" alt="Network location" /></p>
+
+<h5 id="updates">Updates</h5>
+
+<p><img src="images/updates-from-waik.png" alt="Updates from WAIK" /></p>
+
+<h3 id="cloning">Cloning</h3>
+
+<p>Change the highlighted part to <code>2</code></p>
+
+<p><img src="images/clone-change-name.png" alt="Change name" /></p>
+
+<p>If the two machines will be interacting with each other then reinitialize the MAC address.</p>
+
+<p><img src="images/clone-reinitialize-mac-address.png" alt="Reinitialize MAC address" /></p>
+
+<p><img src="images/clone-full-clone.png" alt="Full Clone" /></p>
 
 
       
